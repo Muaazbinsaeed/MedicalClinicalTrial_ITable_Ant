@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.custom-table table td {
+    line-height: 1;
+  }
+
+  
+.custom-table table th {
+    line-height: 1;
+  }
