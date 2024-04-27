@@ -33,9 +33,11 @@ git status
 git checkout -b v1 
 # Switched to a new branch "v1"
 git commit -a -m 'v1 first push'
+# git push -u origin main
+git push -u origin v1
 
 
-git checkout master
+git checkout main
 #Switched to branch 'master'
 
 git log
