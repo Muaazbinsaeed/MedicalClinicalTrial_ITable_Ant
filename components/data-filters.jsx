@@ -28,7 +28,6 @@ export const DataFilters = ({ onSelect, selectedFilters, onClear }) => {
                         <div className="flex flex-col gap-y-2 px-2">
                             <SelectInput selected={selectedFilters[filter.key] === "All"} title="All" onClick={() => handleSelectFilter(filter.key, "All")} />
                             {filter.filters.map(item =>
-
                                 <SelectInput selected={selectedFilters[filter.key] === item} key={item} title={item} onClick={() => handleSelectFilter(filter.key, item)} />
                             )
                             }

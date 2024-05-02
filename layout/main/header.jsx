@@ -9,7 +9,8 @@ export const AppHeader = () => {
                 <nav>
                     <ul className="flex items-center">
                         {
-                            ["HOME",
+                            [
+                                "HOME",
                                 "METHODS",
                                 "INTRODUCTION",
                                 "PRISMA",
