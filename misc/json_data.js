@@ -1,4 +1,7 @@
 
+// import { Tooltip } from "antd";
+
+
 export const json_data = [
     {
         "NCT": "NCT02799602",
@@ -4430,13 +4433,15 @@ export const column_data =  [
         "title": "NCT",
         "dataIndex": "NCT",
         "key": "NCT",
-        "width": 200
+        "width": 200,
+        fixed: 'left'
     },
     {
         "title": "PubMed ID",
         "dataIndex": "PubMedID",
         "key": "PubMedID",
-        "width": 200
+        "width": 200,
+        fixed: 'left'
     },
     {
         "title": "Trial Name",
