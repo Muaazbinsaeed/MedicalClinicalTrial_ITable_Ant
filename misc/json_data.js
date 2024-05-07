@@ -4425,143 +4425,170 @@ export const json_data = [
 ];
 
 
-export const column_data = [
+export const column_data =  [
     {
         "title": "NCT",
         "dataIndex": "NCT",
-        "key": "NCT"
+        "key": "NCT",
+        "width": 200
     },
     {
         "title": "PubMed ID",
         "dataIndex": "PubMedID",
-        "key": "PubMedID"
+        "key": "PubMedID",
+        "width": 200
     },
     {
         "title": "Trial Name",
         "dataIndex": "TrialName",
-        "key": "TrialName"
+        "key": "TrialName",
+        "width": 200
     },
     {
         "title": "Author",
         "dataIndex": "Author",
-        "key": "Author"
+        "key": "Author",
+        "width": 200
     },
     {
         "title": "Year",
         "dataIndex": "Year",
-        "key": "Year"
+        "key": "Year",
+        "width": 200
     },
     {
         "title": "Full Pub or Abstract",
         "dataIndex": "FullPuborAbstract",
-        "key": "FullPuborAbstract"
+        "key": "FullPuborAbstract",
+        "width": 200
     },
     {
         "title": "Phase",
         "dataIndex": "Phase",
-        "key": "Phase"
+        "key": "Phase",
+        "width": 200
     },
     {
         "title": "Original/Follow Up",
         "dataIndex": "OriginalFollowUp",
-        "key": "OriginalFollowUp"
+        "key": "OriginalFollowUp",
+        "width": 200
     },
     {
         "title": "Number of Arms Included",
         "dataIndex": "NumberofArmsIncluded",
-        "key": "NumberofArmsIncluded"
+        "key": "NumberofArmsIncluded",
+        "width": 200
     },
     {
         "title": "Treatment Arm(s)",
         "dataIndex": "TreatmentArms",
-        "key": "TreatmentArms"
+        "key": "TreatmentArms",
+        "width": 200
     },
     {
         "title": "Control Arm",
         "dataIndex": "ControlArm",
-        "key": "ControlArm"
+        "key": "ControlArm",
+        "width": 200
     },
     {
         "title": "Class of Agent in Treatment Arm 1",
         "dataIndex": "ClassofAgentinTreatmentArm1",
-        "key": "ClassofAgentinTreatmentArm1"
+        "key": "ClassofAgentinTreatmentArm1",
+        "width": 200
     },
     {
         "title": "Treatment Arm 1 Regimen",
         "dataIndex": "TreatmentArm1Regimen",
-        "key": "TreatmentArm1Regimen"
+        "key": "TreatmentArm1Regimen",
+        "width": 200
     },
     {
         "title": "Total Participants - N",
         "dataIndex": "TotalParticipantsN",
-        "key": "TotalParticipantsN"
+        "key": "TotalParticipantsN",
+        "width": 200
     },
     {
         "title": "Treatment Arm - N",
         "dataIndex": "TreatmentArmN",
-        "key": "TreatmentArmN"
+        "key": "TreatmentArmN",
+        "width": 200
     },
     {
         "title": "Control Arm - N",
         "dataIndex": "ControlArmN",
-        "key": "ControlArmN"
+        "key": "ControlArmN",
+        "width": 200
     },
     {
         "title": "Median Follow-Up Duration (mo)",
         "dataIndex": "MedianFollowUpDurationmo",
-        "key": "MedianFollowUpDurationmo"
+        "key": "MedianFollowUpDurationmo",
+        "width": 200
     },
     {
         "title": "Median On-Treatment Duration (mo)",
         "dataIndex": "MedianOnTreatmentDurationmo",
         "key": "MedianOnTreatmentDurationmo",
+        "width": 200,
         "children": [
             {
                 "title": "Treatment",
                 "dataIndex": "MedianOnTreatmentDurationmo_Treatment",
-                "key": "MedianOnTreatmentDurationmo_Treatment"
+                "key": "MedianOnTreatmentDurationmo_Treatment",
+                "width": 200
             },
             {
                 "title": "Control",
                 "dataIndex": "MedianOnTreatmentDurationmo_Control",
-                "key": "MedianOnTreatmentDurationmo_Control"
+                "key": "MedianOnTreatmentDurationmo_Control",
+                "width": 200
             }
         ]
     },
     {
         "title": "Quality of Life reported",
         "dataIndex": "QualityofLifereported",
-        "key": "QualityofLifereported"
+        "key": "QualityofLifereported",
+        "width": 200
     },
     {
         "title": "Quality of Life Scale",
         "dataIndex": "QualityofLifeScale",
-        "key": "QualityofLifeScale"
+        "key": "QualityofLifeScale",
+        "width": 200
     },
     {
         "title": "Reporting by prognostic groups - Y/N",
         "dataIndex": "ReportingbyprognosticgroupsYN",
         "key": "ReportingbyprognosticgroupsYN",
+        "width": 200,
         "children": [
             {
                 "title": "Synchronous",
                 "dataIndex": "ReportingbyprognosticgroupsYN_Synchronous",
-                "key": "ReportingbyprognosticgroupsYN_Synchronous"
+                "key": "ReportingbyprognosticgroupsYN_Synchronous",
+                "width": 200
             },
             {
                 "title": "Metachronous",
                 "dataIndex": "ReportingbyprognosticgroupsYN_Metachronous",
-                "key": "ReportingbyprognosticgroupsYN_Metachronous"
+                "key": "ReportingbyprognosticgroupsYN_Metachronous",
+                "width": 200
             },
             {
                 "title": "High volume",
                 "dataIndex": "ReportingbyprognosticgroupsYN_Highvolume",
-                "key": "ReportingbyprognosticgroupsYN_Highvolume"
+                "key": "ReportingbyprognosticgroupsYN_Highvolume",
+                "width": 200
             },
             {
                 "title": "Low volume",
                 "dataIndex": "ReportingbyprognosticgroupsYN_Lowvolume",
-                "key": "ReportingbyprognosticgroupsYN_Lowvolume"
+                "key": "ReportingbyprognosticgroupsYN_Lowvolume",
+                "width": 200
             }
         ]
     },
@@ -4569,21 +4596,25 @@ export const column_data = [
         "title": "Mode of metastases - N (%)",
         "dataIndex": "ModeofmetastasesNPct",
         "key": "ModeofmetastasesNPct",
+        "width": 200,
         "children": [
             {
                 "title": "Synchronous",
                 "dataIndex": "ModeofmetastasesNPct_Synchronous",
                 "key": "ModeofmetastasesNPct_Synchronous",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "ModeofmetastasesNPct_Synchronous_Treatment",
-                        "key": "ModeofmetastasesNPct_Synchronous_Treatment"
+                        "key": "ModeofmetastasesNPct_Synchronous_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "ModeofmetastasesNPct_Synchronous_Control",
-                        "key": "ModeofmetastasesNPct_Synchronous_Control"
+                        "key": "ModeofmetastasesNPct_Synchronous_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4591,16 +4622,19 @@ export const column_data = [
                 "title": "Metachronous",
                 "dataIndex": "ModeofmetastasesNPct_Metachronous",
                 "key": "ModeofmetastasesNPct_Metachronous",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "ModeofmetastasesNPct_Metachronous_Treatment",
-                        "key": "ModeofmetastasesNPct_Metachronous_Treatment"
+                        "key": "ModeofmetastasesNPct_Metachronous_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "ModeofmetastasesNPct_Metachronous_Control",
-                        "key": "ModeofmetastasesNPct_Metachronous_Control"
+                        "key": "ModeofmetastasesNPct_Metachronous_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -4610,21 +4644,25 @@ export const column_data = [
         "title": "Volume of disease - N (%)",
         "dataIndex": "VolumeofdiseaseNPct",
         "key": "VolumeofdiseaseNPct",
+        "width": 200,
         "children": [
             {
                 "title": "High",
                 "dataIndex": "VolumeofdiseaseNPct_High",
                 "key": "VolumeofdiseaseNPct_High",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "VolumeofdiseaseNPct_High_Treatment",
-                        "key": "VolumeofdiseaseNPct_High_Treatment"
+                        "key": "VolumeofdiseaseNPct_High_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "VolumeofdiseaseNPct_High_Control",
-                        "key": "VolumeofdiseaseNPct_High_Control"
+                        "key": "VolumeofdiseaseNPct_High_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4632,16 +4670,19 @@ export const column_data = [
                 "title": "Low",
                 "dataIndex": "VolumeofdiseaseNPct_Low",
                 "key": "VolumeofdiseaseNPct_Low",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "VolumeofdiseaseNPct_Low_Treatment",
-                        "key": "VolumeofdiseaseNPct_Low_Treatment"
+                        "key": "VolumeofdiseaseNPct_Low_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "VolumeofdiseaseNPct_Low_Control",
-                        "key": "VolumeofdiseaseNPct_Low_Control"
+                        "key": "VolumeofdiseaseNPct_Low_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -4651,16 +4692,19 @@ export const column_data = [
         "title": "Docetaxel administration - N (%)",
         "dataIndex": "DocetaxeladministrationNPct",
         "key": "DocetaxeladministrationNPct",
+        "width": 200,
         "children": [
             {
                 "title": "Treatment",
                 "dataIndex": "DocetaxeladministrationNPct_Treatment",
-                "key": "DocetaxeladministrationNPct_Treatment"
+                "key": "DocetaxeladministrationNPct_Treatment",
+                "width": 200
             },
             {
                 "title": "Control",
                 "dataIndex": "DocetaxeladministrationNPct_Control",
-                "key": "DocetaxeladministrationNPct_Control"
+                "key": "DocetaxeladministrationNPct_Control",
+                "width": 200
             }
         ]
     },
@@ -4668,16 +4712,19 @@ export const column_data = [
         "title": "Median Age (years)",
         "dataIndex": "MedianAgeyears",
         "key": "MedianAgeyears",
+        "width": 200,
         "children": [
             {
                 "title": "Treatment",
                 "dataIndex": "MedianAgeyears_Treatment",
-                "key": "MedianAgeyears_Treatment"
+                "key": "MedianAgeyears_Treatment",
+                "width": 200
             },
             {
                 "title": "Control",
                 "dataIndex": "MedianAgeyears_Control",
-                "key": "MedianAgeyears_Control"
+                "key": "MedianAgeyears_Control",
+                "width": 200
             }
         ]
     },
@@ -4685,21 +4732,25 @@ export const column_data = [
         "title": "Race - N (%)",
         "dataIndex": "RaceNPct",
         "key": "RaceNPct",
+        "width": 200,
         "children": [
             {
                 "title": "White",
                 "dataIndex": "RaceNPct_White",
                 "key": "RaceNPct_White",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RaceNPct_White_Treatment",
-                        "key": "RaceNPct_White_Treatment"
+                        "key": "RaceNPct_White_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RaceNPct_White_Control",
-                        "key": "RaceNPct_White_Control"
+                        "key": "RaceNPct_White_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4707,16 +4758,19 @@ export const column_data = [
                 "title": "Black or African American",
                 "dataIndex": "RaceNPct_BlackorAfricanAmerican",
                 "key": "RaceNPct_BlackorAfricanAmerican",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RaceNPct_BlackorAfricanAmerican_Treatment",
-                        "key": "RaceNPct_BlackorAfricanAmerican_Treatment"
+                        "key": "RaceNPct_BlackorAfricanAmerican_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RaceNPct_BlackorAfricanAmerican_Control",
-                        "key": "RaceNPct_BlackorAfricanAmerican_Control"
+                        "key": "RaceNPct_BlackorAfricanAmerican_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4724,16 +4778,19 @@ export const column_data = [
                 "title": "Asian",
                 "dataIndex": "RaceNPct_Asian",
                 "key": "RaceNPct_Asian",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RaceNPct_Asian_Treatment",
-                        "key": "RaceNPct_Asian_Treatment"
+                        "key": "RaceNPct_Asian_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RaceNPct_Asian_Control",
-                        "key": "RaceNPct_Asian_Control"
+                        "key": "RaceNPct_Asian_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4741,16 +4798,19 @@ export const column_data = [
                 "title": "Nat. Hawaiian or Pac. Islander",
                 "dataIndex": "RaceNPct_NatHawaiianorPacIslander",
                 "key": "RaceNPct_NatHawaiianorPacIslander",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RaceNPct_NatHawaiianorPacIslander_Treatment",
-                        "key": "RaceNPct_NatHawaiianorPacIslander_Treatment"
+                        "key": "RaceNPct_NatHawaiianorPacIslander_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RaceNPct_NatHawaiianorPacIslander_Control",
-                        "key": "RaceNPct_NatHawaiianorPacIslander_Control"
+                        "key": "RaceNPct_NatHawaiianorPacIslander_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4758,16 +4818,19 @@ export const column_data = [
                 "title": "Amer. Indian or Alaska Nat.",
                 "dataIndex": "RaceNPct_AmerIndianorAlaskaNat",
                 "key": "RaceNPct_AmerIndianorAlaskaNat",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RaceNPct_AmerIndianorAlaskaNat_Treatment",
-                        "key": "RaceNPct_AmerIndianorAlaskaNat_Treatment"
+                        "key": "RaceNPct_AmerIndianorAlaskaNat_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RaceNPct_AmerIndianorAlaskaNat_Control",
-                        "key": "RaceNPct_AmerIndianorAlaskaNat_Control"
+                        "key": "RaceNPct_AmerIndianorAlaskaNat_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4775,16 +4838,19 @@ export const column_data = [
                 "title": "Other",
                 "dataIndex": "RaceNPct_Other",
                 "key": "RaceNPct_Other",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RaceNPct_Other_Treatment",
-                        "key": "RaceNPct_Other_Treatment"
+                        "key": "RaceNPct_Other_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RaceNPct_Other_Control",
-                        "key": "RaceNPct_Other_Control"
+                        "key": "RaceNPct_Other_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4792,16 +4858,19 @@ export const column_data = [
                 "title": "Unknown",
                 "dataIndex": "RaceNPct_Unknown",
                 "key": "RaceNPct_Unknown",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RaceNPct_Unknown_Treatment",
-                        "key": "RaceNPct_Unknown_Treatment"
+                        "key": "RaceNPct_Unknown_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RaceNPct_Unknown_Control",
-                        "key": "RaceNPct_Unknown_Control"
+                        "key": "RaceNPct_Unknown_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -4811,21 +4880,25 @@ export const column_data = [
         "title": "Region - N (%)",
         "dataIndex": "RegionNPct",
         "key": "RegionNPct",
+        "width": 200,
         "children": [
             {
                 "title": "North America",
                 "dataIndex": "RegionNPct_NorthAmerica",
                 "key": "RegionNPct_NorthAmerica",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RegionNPct_NorthAmerica_Treatment",
-                        "key": "RegionNPct_NorthAmerica_Treatment"
+                        "key": "RegionNPct_NorthAmerica_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RegionNPct_NorthAmerica_Control",
-                        "key": "RegionNPct_NorthAmerica_Control"
+                        "key": "RegionNPct_NorthAmerica_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4833,16 +4906,19 @@ export const column_data = [
                 "title": "South America",
                 "dataIndex": "RegionNPct_SouthAmerica",
                 "key": "RegionNPct_SouthAmerica",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RegionNPct_SouthAmerica_Treatment",
-                        "key": "RegionNPct_SouthAmerica_Treatment"
+                        "key": "RegionNPct_SouthAmerica_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RegionNPct_SouthAmerica_Control",
-                        "key": "RegionNPct_SouthAmerica_Control"
+                        "key": "RegionNPct_SouthAmerica_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4850,16 +4926,19 @@ export const column_data = [
                 "title": "Europe",
                 "dataIndex": "RegionNPct_Europe",
                 "key": "RegionNPct_Europe",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RegionNPct_Europe_Treatment",
-                        "key": "RegionNPct_Europe_Treatment"
+                        "key": "RegionNPct_Europe_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RegionNPct_Europe_Control",
-                        "key": "RegionNPct_Europe_Control"
+                        "key": "RegionNPct_Europe_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4867,16 +4946,19 @@ export const column_data = [
                 "title": "Africa",
                 "dataIndex": "RegionNPct_Africa",
                 "key": "RegionNPct_Africa",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RegionNPct_Africa_Treatment",
-                        "key": "RegionNPct_Africa_Treatment"
+                        "key": "RegionNPct_Africa_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RegionNPct_Africa_Control",
-                        "key": "RegionNPct_Africa_Control"
+                        "key": "RegionNPct_Africa_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4884,16 +4966,19 @@ export const column_data = [
                 "title": "Asia",
                 "dataIndex": "RegionNPct_Asia",
                 "key": "RegionNPct_Asia",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RegionNPct_Asia_Treatment",
-                        "key": "RegionNPct_Asia_Treatment"
+                        "key": "RegionNPct_Asia_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RegionNPct_Asia_Control",
-                        "key": "RegionNPct_Asia_Control"
+                        "key": "RegionNPct_Asia_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4901,16 +4986,19 @@ export const column_data = [
                 "title": "Oceania",
                 "dataIndex": "RegionNPct_Oceania",
                 "key": "RegionNPct_Oceania",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "RegionNPct_Oceania_Treatment",
-                        "key": "RegionNPct_Oceania_Treatment"
+                        "key": "RegionNPct_Oceania_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "RegionNPct_Oceania_Control",
-                        "key": "RegionNPct_Oceania_Control"
+                        "key": "RegionNPct_Oceania_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -4920,21 +5008,25 @@ export const column_data = [
         "title": "PS - N (%)",
         "dataIndex": "PSNPct",
         "key": "PSNPct",
+        "width": 200,
         "children": [
             {
                 "title": "0",
                 "dataIndex": "PSNPct_0",
                 "key": "PSNPct_0",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "PSNPct_0_Treatment",
-                        "key": "PSNPct_0_Treatment"
+                        "key": "PSNPct_0_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "PSNPct_0_Control",
-                        "key": "PSNPct_0_Control"
+                        "key": "PSNPct_0_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4942,16 +5034,19 @@ export const column_data = [
                 "title": "1-2",
                 "dataIndex": "PSNPct_12",
                 "key": "PSNPct_12",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "PSNPct_12_Treatment",
-                        "key": "PSNPct_12_Treatment"
+                        "key": "PSNPct_12_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "PSNPct_12_Control",
-                        "key": "PSNPct_12_Control"
+                        "key": "PSNPct_12_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -4961,21 +5056,25 @@ export const column_data = [
         "title": "Gleason score - N (%)",
         "dataIndex": "GleasonscoreNPct",
         "key": "GleasonscoreNPct",
+        "width": 200,
         "children": [
             {
                 "title": "\u2264 7",
                 "dataIndex": "GleasonscoreNPct_\u22647",
                 "key": "GleasonscoreNPct_\u22647",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "GleasonscoreNPct_\u22647_Treatment",
-                        "key": "GleasonscoreNPct_\u22647_Treatment"
+                        "key": "GleasonscoreNPct_\u22647_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "GleasonscoreNPct_\u22647_Control",
-                        "key": "GleasonscoreNPct_\u22647_Control"
+                        "key": "GleasonscoreNPct_\u22647_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -4983,16 +5082,19 @@ export const column_data = [
                 "title": "\u2265 8",
                 "dataIndex": "GleasonscoreNPct_\u22658",
                 "key": "GleasonscoreNPct_\u22658",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "GleasonscoreNPct_\u22658_Treatment",
-                        "key": "GleasonscoreNPct_\u22658_Treatment"
+                        "key": "GleasonscoreNPct_\u22658_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "GleasonscoreNPct_\u22658_Control",
-                        "key": "GleasonscoreNPct_\u22658_Control"
+                        "key": "GleasonscoreNPct_\u22658_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -5002,21 +5104,25 @@ export const column_data = [
         "title": "Metastases - N (%)",
         "dataIndex": "MetastasesNPct",
         "key": "MetastasesNPct",
+        "width": 200,
         "children": [
             {
                 "title": "Liver",
                 "dataIndex": "MetastasesNPct_Liver",
                 "key": "MetastasesNPct_Liver",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "MetastasesNPct_Liver_Treatment",
-                        "key": "MetastasesNPct_Liver_Treatment"
+                        "key": "MetastasesNPct_Liver_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "MetastasesNPct_Liver_Control",
-                        "key": "MetastasesNPct_Liver_Control"
+                        "key": "MetastasesNPct_Liver_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5024,16 +5130,19 @@ export const column_data = [
                 "title": "Lungs",
                 "dataIndex": "MetastasesNPct_Lungs",
                 "key": "MetastasesNPct_Lungs",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "MetastasesNPct_Lungs_Treatment",
-                        "key": "MetastasesNPct_Lungs_Treatment"
+                        "key": "MetastasesNPct_Lungs_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "MetastasesNPct_Lungs_Control",
-                        "key": "MetastasesNPct_Lungs_Control"
+                        "key": "MetastasesNPct_Lungs_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5041,16 +5150,19 @@ export const column_data = [
                 "title": "Bone",
                 "dataIndex": "MetastasesNPct_Bone",
                 "key": "MetastasesNPct_Bone",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "MetastasesNPct_Bone_Treatment",
-                        "key": "MetastasesNPct_Bone_Treatment"
+                        "key": "MetastasesNPct_Bone_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "MetastasesNPct_Bone_Control",
-                        "key": "MetastasesNPct_Bone_Control"
+                        "key": "MetastasesNPct_Bone_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5058,16 +5170,19 @@ export const column_data = [
                 "title": "Nodal",
                 "dataIndex": "MetastasesNPct_Nodal",
                 "key": "MetastasesNPct_Nodal",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "MetastasesNPct_Nodal_Treatment",
-                        "key": "MetastasesNPct_Nodal_Treatment"
+                        "key": "MetastasesNPct_Nodal_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "MetastasesNPct_Nodal_Control",
-                        "key": "MetastasesNPct_Nodal_Control"
+                        "key": "MetastasesNPct_Nodal_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -5077,21 +5192,25 @@ export const column_data = [
         "title": "Previous local therapy - N (%)",
         "dataIndex": "PreviouslocaltherapyNPct",
         "key": "PreviouslocaltherapyNPct",
+        "width": 200,
         "children": [
             {
                 "title": "Prostatectomy",
                 "dataIndex": "PreviouslocaltherapyNPct_Prostatectomy",
                 "key": "PreviouslocaltherapyNPct_Prostatectomy",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "PreviouslocaltherapyNPct_Prostatectomy_Treatment",
-                        "key": "PreviouslocaltherapyNPct_Prostatectomy_Treatment"
+                        "key": "PreviouslocaltherapyNPct_Prostatectomy_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "PreviouslocaltherapyNPct_Prostatectomy_Control",
-                        "key": "PreviouslocaltherapyNPct_Prostatectomy_Control"
+                        "key": "PreviouslocaltherapyNPct_Prostatectomy_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5099,16 +5218,19 @@ export const column_data = [
                 "title": "Orchiectomy",
                 "dataIndex": "PreviouslocaltherapyNPct_Orchiectomy",
                 "key": "PreviouslocaltherapyNPct_Orchiectomy",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "PreviouslocaltherapyNPct_Orchiectomy_Treatment",
-                        "key": "PreviouslocaltherapyNPct_Orchiectomy_Treatment"
+                        "key": "PreviouslocaltherapyNPct_Orchiectomy_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "PreviouslocaltherapyNPct_Orchiectomy_Control",
-                        "key": "PreviouslocaltherapyNPct_Orchiectomy_Control"
+                        "key": "PreviouslocaltherapyNPct_Orchiectomy_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5116,16 +5238,19 @@ export const column_data = [
                 "title": "Radiotherapy",
                 "dataIndex": "PreviouslocaltherapyNPct_Radiotherapy",
                 "key": "PreviouslocaltherapyNPct_Radiotherapy",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "PreviouslocaltherapyNPct_Radiotherapy_Treatment",
-                        "key": "PreviouslocaltherapyNPct_Radiotherapy_Treatment"
+                        "key": "PreviouslocaltherapyNPct_Radiotherapy_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "PreviouslocaltherapyNPct_Radiotherapy_Control",
-                        "key": "PreviouslocaltherapyNPct_Radiotherapy_Control"
+                        "key": "PreviouslocaltherapyNPct_Radiotherapy_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -5134,42 +5259,50 @@ export const column_data = [
     {
         "title": "Primary Endpoint(s)",
         "dataIndex": "PrimaryEndpoints",
-        "key": "PrimaryEndpoints"
+        "key": "PrimaryEndpoints",
+        "width": 200
     },
     {
         "title": "Secondary Endpoint(s)",
         "dataIndex": "SecondaryEndpoints",
-        "key": "SecondaryEndpoints"
+        "key": "SecondaryEndpoints",
+        "width": 200
     },
     {
         "title": "ORR - N (%)",
         "dataIndex": "ORRNPct",
         "key": "ORRNPct",
+        "width": 200,
         "children": [
             {
                 "title": "Treatment",
                 "dataIndex": "ORRNPct_Treatment",
                 "key": "ORRNPct_Treatment",
+                "width": 200,
                 "children": [
                     {
                         "title": "Overall",
                         "dataIndex": "ORRNPct_Treatment_Overall",
-                        "key": "ORRNPct_Treatment_Overall"
+                        "key": "ORRNPct_Treatment_Overall",
+                        "width": 200
                     },
                     {
                         "title": "CR",
                         "dataIndex": "ORRNPct_Treatment_CR",
-                        "key": "ORRNPct_Treatment_CR"
+                        "key": "ORRNPct_Treatment_CR",
+                        "width": 200
                     },
                     {
                         "title": "SD",
                         "dataIndex": "ORRNPct_Treatment_SD",
-                        "key": "ORRNPct_Treatment_SD"
+                        "key": "ORRNPct_Treatment_SD",
+                        "width": 200
                     },
                     {
                         "title": "PD",
                         "dataIndex": "ORRNPct_Treatment_PD",
-                        "key": "ORRNPct_Treatment_PD"
+                        "key": "ORRNPct_Treatment_PD",
+                        "width": 200
                     }
                 ]
             },
@@ -5177,26 +5310,31 @@ export const column_data = [
                 "title": "Control",
                 "dataIndex": "ORRNPct_Control",
                 "key": "ORRNPct_Control",
+                "width": 200,
                 "children": [
                     {
                         "title": "Overall",
                         "dataIndex": "ORRNPct_Control_Overall",
-                        "key": "ORRNPct_Control_Overall"
+                        "key": "ORRNPct_Control_Overall",
+                        "width": 200
                     },
                     {
                         "title": "CR",
                         "dataIndex": "ORRNPct_Control_CR",
-                        "key": "ORRNPct_Control_CR"
+                        "key": "ORRNPct_Control_CR",
+                        "width": 200
                     },
                     {
                         "title": "SD",
                         "dataIndex": "ORRNPct_Control_SD",
-                        "key": "ORRNPct_Control_SD"
+                        "key": "ORRNPct_Control_SD",
+                        "width": 200
                     },
                     {
                         "title": "PD",
                         "dataIndex": "ORRNPct_Control_PD",
-                        "key": "ORRNPct_Control_PD"
+                        "key": "ORRNPct_Control_PD",
+                        "width": 200
                     }
                 ]
             }
@@ -5206,21 +5344,25 @@ export const column_data = [
         "title": "Adverse Events - N (%)",
         "dataIndex": "AdverseEventsNPct",
         "key": "AdverseEventsNPct",
+        "width": 200,
         "children": [
             {
                 "title": "All-Cause Grade 3 or Higher",
                 "dataIndex": "AdverseEventsNPct_AllCauseGrade3orHigher",
                 "key": "AdverseEventsNPct_AllCauseGrade3orHigher",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "AdverseEventsNPct_AllCauseGrade3orHigher_Treatment",
-                        "key": "AdverseEventsNPct_AllCauseGrade3orHigher_Treatment"
+                        "key": "AdverseEventsNPct_AllCauseGrade3orHigher_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "AdverseEventsNPct_AllCauseGrade3orHigher_Control",
-                        "key": "AdverseEventsNPct_AllCauseGrade3orHigher_Control"
+                        "key": "AdverseEventsNPct_AllCauseGrade3orHigher_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5228,16 +5370,19 @@ export const column_data = [
                 "title": "Treatment-related Grade 3 or Higher",
                 "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher",
                 "key": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Treatment",
-                        "key": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Treatment"
+                        "key": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Control",
-                        "key": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Control"
+                        "key": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5245,16 +5390,19 @@ export const column_data = [
                 "title": "Treatment-related Grade 5",
                 "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade5",
                 "key": "AdverseEventsNPct_TreatmentrelatedGrade5",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade5_Treatment",
-                        "key": "AdverseEventsNPct_TreatmentrelatedGrade5_Treatment"
+                        "key": "AdverseEventsNPct_TreatmentrelatedGrade5_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade5_Control",
-                        "key": "AdverseEventsNPct_TreatmentrelatedGrade5_Control"
+                        "key": "AdverseEventsNPct_TreatmentrelatedGrade5_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -5264,16 +5412,19 @@ export const column_data = [
         "title": "No. of Deaths - N",
         "dataIndex": "NoofDeathsN",
         "key": "NoofDeathsN",
+        "width": 200,
         "children": [
             {
                 "title": "Treatment",
                 "dataIndex": "NoofDeathsN_Treatment",
-                "key": "NoofDeathsN_Treatment"
+                "key": "NoofDeathsN_Treatment",
+                "width": 200
             },
             {
                 "title": "Control",
                 "dataIndex": "NoofDeathsN_Control",
-                "key": "NoofDeathsN_Control"
+                "key": "NoofDeathsN_Control",
+                "width": 200
             }
         ]
     },
@@ -5281,16 +5432,19 @@ export const column_data = [
         "title": "TTPSA (mo)",
         "dataIndex": "TTPSAmo",
         "key": "TTPSAmo",
+        "width": 200,
         "children": [
             {
                 "title": "Treatment",
                 "dataIndex": "TTPSAmo_Treatment",
-                "key": "TTPSAmo_Treatment"
+                "key": "TTPSAmo_Treatment",
+                "width": 200
             },
             {
                 "title": "Control",
                 "dataIndex": "TTPSAmo_Control",
-                "key": "TTPSAmo_Control"
+                "key": "TTPSAmo_Control",
+                "width": 200
             }
         ]
     },
@@ -5298,21 +5452,25 @@ export const column_data = [
         "title": "OS Rate (%)",
         "dataIndex": "OSRatePct",
         "key": "OSRatePct",
+        "width": 200,
         "children": [
             {
                 "title": "Overall",
                 "dataIndex": "OSRatePct_Overall",
                 "key": "OSRatePct_Overall",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "OSRatePct_Overall_Treatment",
-                        "key": "OSRatePct_Overall_Treatment"
+                        "key": "OSRatePct_Overall_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "OSRatePct_Overall_Control",
-                        "key": "OSRatePct_Overall_Control"
+                        "key": "OSRatePct_Overall_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5320,16 +5478,19 @@ export const column_data = [
                 "title": "Synchronous",
                 "dataIndex": "OSRatePct_Synchronous",
                 "key": "OSRatePct_Synchronous",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "OSRatePct_Synchronous_Treatment",
-                        "key": "OSRatePct_Synchronous_Treatment"
+                        "key": "OSRatePct_Synchronous_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "OSRatePct_Synchronous_Control",
-                        "key": "OSRatePct_Synchronous_Control"
+                        "key": "OSRatePct_Synchronous_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5337,16 +5498,19 @@ export const column_data = [
                 "title": "Metachronous",
                 "dataIndex": "OSRatePct_Metachronous",
                 "key": "OSRatePct_Metachronous",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "OSRatePct_Metachronous_Treatment",
-                        "key": "OSRatePct_Metachronous_Treatment"
+                        "key": "OSRatePct_Metachronous_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "OSRatePct_Metachronous_Control",
-                        "key": "OSRatePct_Metachronous_Control"
+                        "key": "OSRatePct_Metachronous_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5354,16 +5518,19 @@ export const column_data = [
                 "title": "High volume",
                 "dataIndex": "OSRatePct_Highvolume",
                 "key": "OSRatePct_Highvolume",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "OSRatePct_Highvolume_Treatment",
-                        "key": "OSRatePct_Highvolume_Treatment"
+                        "key": "OSRatePct_Highvolume_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "OSRatePct_Highvolume_Control",
-                        "key": "OSRatePct_Highvolume_Control"
+                        "key": "OSRatePct_Highvolume_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5371,16 +5538,19 @@ export const column_data = [
                 "title": "Low volume",
                 "dataIndex": "OSRatePct_Lowvolume",
                 "key": "OSRatePct_Lowvolume",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "OSRatePct_Lowvolume_Treatment",
-                        "key": "OSRatePct_Lowvolume_Treatment"
+                        "key": "OSRatePct_Lowvolume_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "OSRatePct_Lowvolume_Control",
-                        "key": "OSRatePct_Lowvolume_Control"
+                        "key": "OSRatePct_Lowvolume_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -5390,21 +5560,25 @@ export const column_data = [
         "title": "Median OS (mo)",
         "dataIndex": "MedianOSmo",
         "key": "MedianOSmo",
+        "width": 200,
         "children": [
             {
                 "title": "Overall",
                 "dataIndex": "MedianOSmo_Overall",
                 "key": "MedianOSmo_Overall",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "MedianOSmo_Overall_Treatment",
-                        "key": "MedianOSmo_Overall_Treatment"
+                        "key": "MedianOSmo_Overall_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "MedianOSmo_Overall_Control",
-                        "key": "MedianOSmo_Overall_Control"
+                        "key": "MedianOSmo_Overall_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5412,16 +5586,19 @@ export const column_data = [
                 "title": "High volume",
                 "dataIndex": "MedianOSmo_Highvolume",
                 "key": "MedianOSmo_Highvolume",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "MedianOSmo_Highvolume_Treatment",
-                        "key": "MedianOSmo_Highvolume_Treatment"
+                        "key": "MedianOSmo_Highvolume_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "MedianOSmo_Highvolume_Control",
-                        "key": "MedianOSmo_Highvolume_Control"
+                        "key": "MedianOSmo_Highvolume_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5429,16 +5606,19 @@ export const column_data = [
                 "title": "Low volume",
                 "dataIndex": "MedianOSmo_Lowvolume",
                 "key": "MedianOSmo_Lowvolume",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "MedianOSmo_Lowvolume_Treatment",
-                        "key": "MedianOSmo_Lowvolume_Treatment"
+                        "key": "MedianOSmo_Lowvolume_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "MedianOSmo_Lowvolume_Control",
-                        "key": "MedianOSmo_Lowvolume_Control"
+                        "key": "MedianOSmo_Lowvolume_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -5448,21 +5628,25 @@ export const column_data = [
         "title": "PFS Rate (%)",
         "dataIndex": "PFSRatePct",
         "key": "PFSRatePct",
+        "width": 200,
         "children": [
             {
                 "title": "Overall",
                 "dataIndex": "PFSRatePct_Overall",
                 "key": "PFSRatePct_Overall",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "PFSRatePct_Overall_Treatment",
-                        "key": "PFSRatePct_Overall_Treatment"
+                        "key": "PFSRatePct_Overall_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "PFSRatePct_Overall_Control",
-                        "key": "PFSRatePct_Overall_Control"
+                        "key": "PFSRatePct_Overall_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -5472,21 +5656,25 @@ export const column_data = [
         "title": "Median PFS (mo)",
         "dataIndex": "MedianPFSmo",
         "key": "MedianPFSmo",
+        "width": 200,
         "children": [
             {
                 "title": "Overall",
                 "dataIndex": "MedianPFSmo_Overall",
                 "key": "MedianPFSmo_Overall",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "MedianPFSmo_Overall_Treatment",
-                        "key": "MedianPFSmo_Overall_Treatment"
+                        "key": "MedianPFSmo_Overall_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "MedianPFSmo_Overall_Control",
-                        "key": "MedianPFSmo_Overall_Control"
+                        "key": "MedianPFSmo_Overall_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5494,16 +5682,19 @@ export const column_data = [
                 "title": "High volume",
                 "dataIndex": "MedianPFSmo_Highvolume",
                 "key": "MedianPFSmo_Highvolume",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "MedianPFSmo_Highvolume_Treatment",
-                        "key": "MedianPFSmo_Highvolume_Treatment"
+                        "key": "MedianPFSmo_Highvolume_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "MedianPFSmo_Highvolume_Control",
-                        "key": "MedianPFSmo_Highvolume_Control"
+                        "key": "MedianPFSmo_Highvolume_Control",
+                        "width": 200
                     }
                 ]
             },
@@ -5511,16 +5702,19 @@ export const column_data = [
                 "title": "Low volume",
                 "dataIndex": "MedianPFSmo_Lowvolume",
                 "key": "MedianPFSmo_Lowvolume",
+                "width": 200,
                 "children": [
                     {
                         "title": "Treatment",
                         "dataIndex": "MedianPFSmo_Lowvolume_Treatment",
-                        "key": "MedianPFSmo_Lowvolume_Treatment"
+                        "key": "MedianPFSmo_Lowvolume_Treatment",
+                        "width": 200
                     },
                     {
                         "title": "Control",
                         "dataIndex": "MedianPFSmo_Lowvolume_Control",
-                        "key": "MedianPFSmo_Lowvolume_Control"
+                        "key": "MedianPFSmo_Lowvolume_Control",
+                        "width": 200
                     }
                 ]
             }
@@ -5529,16 +5723,2568 @@ export const column_data = [
     {
         "title": "Add-on Treatment",
         "dataIndex": "AddonTreatment",
-        "key": "AddonTreatment"
+        "key": "AddonTreatment",
+        "width": 200
     },
     {
         "title": "Treatment Class",
         "dataIndex": "TreatmentClass",
-        "key": "TreatmentClass"
+        "key": "TreatmentClass",
+        "width": 200
     },
     {
         "title": "Type of Therapy",
         "dataIndex": "TypeofTherapy",
-        "key": "TypeofTherapy"
+        "key": "TypeofTherapy",
+        "width": 200
     }
-]
+];
+
+//     [
+//     {
+//         "title": "NCT",
+//         "dataIndex": "NCT",
+//         "key": "NCT",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "PubMed ID",
+//         "dataIndex": "PubMedID",
+//         "key": "PubMedID",
+//         "width": 200
+//     },
+//     {
+//         "title": "Trial Name",
+//         "dataIndex": "TrialName",
+//         "key": "TrialName",
+//         "width": 200
+//     },
+//     {
+//         "title": "Author",
+//         "dataIndex": "Author",
+//         "key": "Author",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Year",
+//         "dataIndex": "Year",
+//         "key": "Year",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Full Pub or Abstract",
+//         "dataIndex": "FullPuborAbstract",
+//         "key": "FullPuborAbstract",
+//         "width": 200
+//     },
+//     {
+//         "title": "Phase",
+//         "dataIndex": "Phase",
+//         "key": "Phase",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Original/Follow Up",
+//         "dataIndex": "OriginalFollowUp",
+//         "key": "OriginalFollowUp",
+//         "width": 200
+//     },
+//     {
+//         "title": "Number of Arms Included",
+//         "dataIndex": "NumberofArmsIncluded",
+//         "key": "NumberofArmsIncluded",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Treatment Arm(s)",
+//         "dataIndex": "TreatmentArms",
+//         "key": "TreatmentArms",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Control Arm",
+//         "dataIndex": "ControlArm",
+//         "key": "ControlArm",
+//         "width": 200
+//     },
+//     {
+//         "title": "Class of Agent in Treatment Arm 1",
+//         "dataIndex": "ClassofAgentinTreatmentArm1",
+//         "key": "ClassofAgentinTreatmentArm1",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Treatment Arm 1 Regimen",
+//         "dataIndex": "TreatmentArm1Regimen",
+//         "key": "TreatmentArm1Regimen",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Total Participants - N",
+//         "dataIndex": "TotalParticipantsN",
+//         "key": "TotalParticipantsN",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Treatment Arm - N",
+//         "dataIndex": "TreatmentArmN",
+//         "key": "TreatmentArmN",
+//         "width": 200
+//     },
+//     {
+//         "title": "Control Arm - N",
+//         "dataIndex": "ControlArmN",
+//         "key": "ControlArmN",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Median Follow-Up Duration (mo)",
+//         "dataIndex": "MedianFollowUpDurationmo",
+//         "key": "MedianFollowUpDurationmo",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Median On-Treatment Duration (mo)",
+//         "dataIndex": "MedianOnTreatmentDurationmo",
+//         "key": "MedianOnTreatmentDurationmo",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "MedianOnTreatmentDurationmo_Treatment",
+//                 "key": "MedianOnTreatmentDurationmo_Treatment",
+//                 "width": 200
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "MedianOnTreatmentDurationmo_Control",
+//                 "key": "MedianOnTreatmentDurationmo_Control",
+//                 "width": 200
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Quality of Life reported",
+//         "dataIndex": "QualityofLifereported",
+//         "key": "QualityofLifereported",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Quality of Life Scale",
+//         "dataIndex": "QualityofLifeScale",
+//         "key": "QualityofLifeScale",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Reporting by prognostic groups - Y/N",
+//         "dataIndex": "ReportingbyprognosticgroupsYN",
+//         "key": "ReportingbyprognosticgroupsYN",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Synchronous",
+//                 "dataIndex": "ReportingbyprognosticgroupsYN_Synchronous",
+//                 "key": "ReportingbyprognosticgroupsYN_Synchronous",
+//                 "width": 200
+//             },
+//             {
+//                 "title": "Metachronous",
+//                 "dataIndex": "ReportingbyprognosticgroupsYN_Metachronous",
+//                 "key": "ReportingbyprognosticgroupsYN_Metachronous",
+//                 "width": 200
+//             },
+//             {
+//                 "title": "High volume",
+//                 "dataIndex": "ReportingbyprognosticgroupsYN_Highvolume",
+//                 "key": "ReportingbyprognosticgroupsYN_Highvolume",
+//                 "width": 200
+//             },
+//             {
+//                 "title": "Low volume",
+//                 "dataIndex": "ReportingbyprognosticgroupsYN_Lowvolume",
+//                 "key": "ReportingbyprognosticgroupsYN_Lowvolume",
+//                 "width": 200
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Mode of metastases - N (%)",
+//         "dataIndex": "ModeofmetastasesNPct",
+//         "key": "ModeofmetastasesNPct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Synchronous",
+//                 "dataIndex": "ModeofmetastasesNPct_Synchronous",
+//                 "key": "ModeofmetastasesNPct_Synchronous",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "ModeofmetastasesNPct_Synchronous_Treatment",
+//                         "key": "ModeofmetastasesNPct_Synchronous_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "ModeofmetastasesNPct_Synchronous_Control",
+//                         "key": "ModeofmetastasesNPct_Synchronous_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Metachronous",
+//                 "dataIndex": "ModeofmetastasesNPct_Metachronous",
+//                 "key": "ModeofmetastasesNPct_Metachronous",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "ModeofmetastasesNPct_Metachronous_Treatment",
+//                         "key": "ModeofmetastasesNPct_Metachronous_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "ModeofmetastasesNPct_Metachronous_Control",
+//                         "key": "ModeofmetastasesNPct_Metachronous_Control",
+//                         "width": 200
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Volume of disease - N (%)",
+//         "dataIndex": "VolumeofdiseaseNPct",
+//         "key": "VolumeofdiseaseNPct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "High",
+//                 "dataIndex": "VolumeofdiseaseNPct_High",
+//                 "key": "VolumeofdiseaseNPct_High",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "VolumeofdiseaseNPct_High_Treatment",
+//                         "key": "VolumeofdiseaseNPct_High_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "VolumeofdiseaseNPct_High_Control",
+//                         "key": "VolumeofdiseaseNPct_High_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Low",
+//                 "dataIndex": "VolumeofdiseaseNPct_Low",
+//                 "key": "VolumeofdiseaseNPct_Low",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "VolumeofdiseaseNPct_Low_Treatment",
+//                         "key": "VolumeofdiseaseNPct_Low_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "VolumeofdiseaseNPct_Low_Control",
+//                         "key": "VolumeofdiseaseNPct_Low_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Docetaxel administration - N (%)",
+//         "dataIndex": "DocetaxeladministrationNPct",
+//         "key": "DocetaxeladministrationNPct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "DocetaxeladministrationNPct_Treatment",
+//                 "key": "DocetaxeladministrationNPct_Treatment",
+//                 "width": 200,
+//                 "ellipsis": "true"
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "DocetaxeladministrationNPct_Control",
+//                 "key": "DocetaxeladministrationNPct_Control",
+//                 "width": 200
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Median Age (years)",
+//         "dataIndex": "MedianAgeyears",
+//         "key": "MedianAgeyears",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "MedianAgeyears_Treatment",
+//                 "key": "MedianAgeyears_Treatment",
+//                 "width": 200
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "MedianAgeyears_Control",
+//                 "key": "MedianAgeyears_Control",
+//                 "width": 200,
+//                 "ellipsis": "true"
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Race - N (%)",
+//         "dataIndex": "RaceNPct",
+//         "key": "RaceNPct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "White",
+//                 "dataIndex": "RaceNPct_White",
+//                 "key": "RaceNPct_White",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_White_Treatment",
+//                         "key": "RaceNPct_White_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_White_Control",
+//                         "key": "RaceNPct_White_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Black or African American",
+//                 "dataIndex": "RaceNPct_BlackorAfricanAmerican",
+//                 "key": "RaceNPct_BlackorAfricanAmerican",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_BlackorAfricanAmerican_Treatment",
+//                         "key": "RaceNPct_BlackorAfricanAmerican_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_BlackorAfricanAmerican_Control",
+//                         "key": "RaceNPct_BlackorAfricanAmerican_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Asian",
+//                 "dataIndex": "RaceNPct_Asian",
+//                 "key": "RaceNPct_Asian",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_Asian_Treatment",
+//                         "key": "RaceNPct_Asian_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_Asian_Control",
+//                         "key": "RaceNPct_Asian_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Nat. Hawaiian or Pac. Islander",
+//                 "dataIndex": "RaceNPct_NatHawaiianorPacIslander",
+//                 "key": "RaceNPct_NatHawaiianorPacIslander",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_NatHawaiianorPacIslander_Treatment",
+//                         "key": "RaceNPct_NatHawaiianorPacIslander_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_NatHawaiianorPacIslander_Control",
+//                         "key": "RaceNPct_NatHawaiianorPacIslander_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Amer. Indian or Alaska Nat.",
+//                 "dataIndex": "RaceNPct_AmerIndianorAlaskaNat",
+//                 "key": "RaceNPct_AmerIndianorAlaskaNat",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_AmerIndianorAlaskaNat_Treatment",
+//                         "key": "RaceNPct_AmerIndianorAlaskaNat_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_AmerIndianorAlaskaNat_Control",
+//                         "key": "RaceNPct_AmerIndianorAlaskaNat_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Other",
+//                 "dataIndex": "RaceNPct_Other",
+//                 "key": "RaceNPct_Other",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_Other_Treatment",
+//                         "key": "RaceNPct_Other_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_Other_Control",
+//                         "key": "RaceNPct_Other_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Unknown",
+//                 "dataIndex": "RaceNPct_Unknown",
+//                 "key": "RaceNPct_Unknown",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_Unknown_Treatment",
+//                         "key": "RaceNPct_Unknown_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_Unknown_Control",
+//                         "key": "RaceNPct_Unknown_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Region - N (%)",
+//         "dataIndex": "RegionNPct",
+//         "key": "RegionNPct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "North America",
+//                 "dataIndex": "RegionNPct_NorthAmerica",
+//                 "key": "RegionNPct_NorthAmerica",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_NorthAmerica_Treatment",
+//                         "key": "RegionNPct_NorthAmerica_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_NorthAmerica_Control",
+//                         "key": "RegionNPct_NorthAmerica_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "South America",
+//                 "dataIndex": "RegionNPct_SouthAmerica",
+//                 "key": "RegionNPct_SouthAmerica",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_SouthAmerica_Treatment",
+//                         "key": "RegionNPct_SouthAmerica_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_SouthAmerica_Control",
+//                         "key": "RegionNPct_SouthAmerica_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Europe",
+//                 "dataIndex": "RegionNPct_Europe",
+//                 "key": "RegionNPct_Europe",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_Europe_Treatment",
+//                         "key": "RegionNPct_Europe_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_Europe_Control",
+//                         "key": "RegionNPct_Europe_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Africa",
+//                 "dataIndex": "RegionNPct_Africa",
+//                 "key": "RegionNPct_Africa",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_Africa_Treatment",
+//                         "key": "RegionNPct_Africa_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_Africa_Control",
+//                         "key": "RegionNPct_Africa_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Asia",
+//                 "dataIndex": "RegionNPct_Asia",
+//                 "key": "RegionNPct_Asia",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_Asia_Treatment",
+//                         "key": "RegionNPct_Asia_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_Asia_Control",
+//                         "key": "RegionNPct_Asia_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Oceania",
+//                 "dataIndex": "RegionNPct_Oceania",
+//                 "key": "RegionNPct_Oceania",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_Oceania_Treatment",
+//                         "key": "RegionNPct_Oceania_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_Oceania_Control",
+//                         "key": "RegionNPct_Oceania_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "PS - N (%)",
+//         "dataIndex": "PSNPct",
+//         "key": "PSNPct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "0",
+//                 "dataIndex": "PSNPct_0",
+//                 "key": "PSNPct_0",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PSNPct_0_Treatment",
+//                         "key": "PSNPct_0_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PSNPct_0_Control",
+//                         "key": "PSNPct_0_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "1-2",
+//                 "dataIndex": "PSNPct_12",
+//                 "key": "PSNPct_12",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PSNPct_12_Treatment",
+//                         "key": "PSNPct_12_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PSNPct_12_Control",
+//                         "key": "PSNPct_12_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Gleason score - N (%)",
+//         "dataIndex": "GleasonscoreNPct",
+//         "key": "GleasonscoreNPct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "\u2264 7",
+//                 "dataIndex": "GleasonscoreNPct_\u22647",
+//                 "key": "GleasonscoreNPct_\u22647",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "GleasonscoreNPct_\u22647_Treatment",
+//                         "key": "GleasonscoreNPct_\u22647_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "GleasonscoreNPct_\u22647_Control",
+//                         "key": "GleasonscoreNPct_\u22647_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "\u2265 8",
+//                 "dataIndex": "GleasonscoreNPct_\u22658",
+//                 "key": "GleasonscoreNPct_\u22658",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "GleasonscoreNPct_\u22658_Treatment",
+//                         "key": "GleasonscoreNPct_\u22658_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "GleasonscoreNPct_\u22658_Control",
+//                         "key": "GleasonscoreNPct_\u22658_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Metastases - N (%)",
+//         "dataIndex": "MetastasesNPct",
+//         "key": "MetastasesNPct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Liver",
+//                 "dataIndex": "MetastasesNPct_Liver",
+//                 "key": "MetastasesNPct_Liver",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MetastasesNPct_Liver_Treatment",
+//                         "key": "MetastasesNPct_Liver_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MetastasesNPct_Liver_Control",
+//                         "key": "MetastasesNPct_Liver_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Lungs",
+//                 "dataIndex": "MetastasesNPct_Lungs",
+//                 "key": "MetastasesNPct_Lungs",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MetastasesNPct_Lungs_Treatment",
+//                         "key": "MetastasesNPct_Lungs_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MetastasesNPct_Lungs_Control",
+//                         "key": "MetastasesNPct_Lungs_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Bone",
+//                 "dataIndex": "MetastasesNPct_Bone",
+//                 "key": "MetastasesNPct_Bone",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MetastasesNPct_Bone_Treatment",
+//                         "key": "MetastasesNPct_Bone_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MetastasesNPct_Bone_Control",
+//                         "key": "MetastasesNPct_Bone_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Nodal",
+//                 "dataIndex": "MetastasesNPct_Nodal",
+//                 "key": "MetastasesNPct_Nodal",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MetastasesNPct_Nodal_Treatment",
+//                         "key": "MetastasesNPct_Nodal_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MetastasesNPct_Nodal_Control",
+//                         "key": "MetastasesNPct_Nodal_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Previous local therapy - N (%)",
+//         "dataIndex": "PreviouslocaltherapyNPct",
+//         "key": "PreviouslocaltherapyNPct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Prostatectomy",
+//                 "dataIndex": "PreviouslocaltherapyNPct_Prostatectomy",
+//                 "key": "PreviouslocaltherapyNPct_Prostatectomy",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Prostatectomy_Treatment",
+//                         "key": "PreviouslocaltherapyNPct_Prostatectomy_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Prostatectomy_Control",
+//                         "key": "PreviouslocaltherapyNPct_Prostatectomy_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Orchiectomy",
+//                 "dataIndex": "PreviouslocaltherapyNPct_Orchiectomy",
+//                 "key": "PreviouslocaltherapyNPct_Orchiectomy",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Orchiectomy_Treatment",
+//                         "key": "PreviouslocaltherapyNPct_Orchiectomy_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Orchiectomy_Control",
+//                         "key": "PreviouslocaltherapyNPct_Orchiectomy_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Radiotherapy",
+//                 "dataIndex": "PreviouslocaltherapyNPct_Radiotherapy",
+//                 "key": "PreviouslocaltherapyNPct_Radiotherapy",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Radiotherapy_Treatment",
+//                         "key": "PreviouslocaltherapyNPct_Radiotherapy_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Radiotherapy_Control",
+//                         "key": "PreviouslocaltherapyNPct_Radiotherapy_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Primary Endpoint(s)",
+//         "dataIndex": "PrimaryEndpoints",
+//         "key": "PrimaryEndpoints",
+//         "width": 200
+//     },
+//     {
+//         "title": "Secondary Endpoint(s)",
+//         "dataIndex": "SecondaryEndpoints",
+//         "key": "SecondaryEndpoints",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "ORR - N (%)",
+//         "dataIndex": "ORRNPct",
+//         "key": "ORRNPct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "ORRNPct_Treatment",
+//                 "key": "ORRNPct_Treatment",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Overall",
+//                         "dataIndex": "ORRNPct_Treatment_Overall",
+//                         "key": "ORRNPct_Treatment_Overall",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "CR",
+//                         "dataIndex": "ORRNPct_Treatment_CR",
+//                         "key": "ORRNPct_Treatment_CR",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "SD",
+//                         "dataIndex": "ORRNPct_Treatment_SD",
+//                         "key": "ORRNPct_Treatment_SD",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "PD",
+//                         "dataIndex": "ORRNPct_Treatment_PD",
+//                         "key": "ORRNPct_Treatment_PD",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "ORRNPct_Control",
+//                 "key": "ORRNPct_Control",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Overall",
+//                         "dataIndex": "ORRNPct_Control_Overall",
+//                         "key": "ORRNPct_Control_Overall",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "CR",
+//                         "dataIndex": "ORRNPct_Control_CR",
+//                         "key": "ORRNPct_Control_CR",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "SD",
+//                         "dataIndex": "ORRNPct_Control_SD",
+//                         "key": "ORRNPct_Control_SD",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "PD",
+//                         "dataIndex": "ORRNPct_Control_PD",
+//                         "key": "ORRNPct_Control_PD",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Adverse Events - N (%)",
+//         "dataIndex": "AdverseEventsNPct",
+//         "key": "AdverseEventsNPct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "All-Cause Grade 3 or Higher",
+//                 "dataIndex": "AdverseEventsNPct_AllCauseGrade3orHigher",
+//                 "key": "AdverseEventsNPct_AllCauseGrade3orHigher",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "AdverseEventsNPct_AllCauseGrade3orHigher_Treatment",
+//                         "key": "AdverseEventsNPct_AllCauseGrade3orHigher_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "AdverseEventsNPct_AllCauseGrade3orHigher_Control",
+//                         "key": "AdverseEventsNPct_AllCauseGrade3orHigher_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Treatment-related Grade 3 or Higher",
+//                 "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher",
+//                 "key": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Treatment",
+//                         "key": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Control",
+//                         "key": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Treatment-related Grade 5",
+//                 "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade5",
+//                 "key": "AdverseEventsNPct_TreatmentrelatedGrade5",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade5_Treatment",
+//                         "key": "AdverseEventsNPct_TreatmentrelatedGrade5_Treatment",
+//                         "width": 200
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade5_Control",
+//                         "key": "AdverseEventsNPct_TreatmentrelatedGrade5_Control",
+//                         "width": 200
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "No. of Deaths - N",
+//         "dataIndex": "NoofDeathsN",
+//         "key": "NoofDeathsN",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "NoofDeathsN_Treatment",
+//                 "key": "NoofDeathsN_Treatment",
+//                 "width": 200,
+//                 "ellipsis": "true"
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "NoofDeathsN_Control",
+//                 "key": "NoofDeathsN_Control",
+//                 "width": 200,
+//                 "ellipsis": "true"
+//             }
+//         ]
+//     },
+//     {
+//         "title": "TTPSA (mo)",
+//         "dataIndex": "TTPSAmo",
+//         "key": "TTPSAmo",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "TTPSAmo_Treatment",
+//                 "key": "TTPSAmo_Treatment",
+//                 "width": 200,
+//                 "ellipsis": "true"
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "TTPSAmo_Control",
+//                 "key": "TTPSAmo_Control",
+//                 "width": 200,
+//                 "ellipsis": "true"
+//             }
+//         ]
+//     },
+//     {
+//         "title": "OS Rate (%)",
+//         "dataIndex": "OSRatePct",
+//         "key": "OSRatePct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Overall",
+//                 "dataIndex": "OSRatePct_Overall",
+//                 "key": "OSRatePct_Overall",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "OSRatePct_Overall_Treatment",
+//                         "key": "OSRatePct_Overall_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "OSRatePct_Overall_Control",
+//                         "key": "OSRatePct_Overall_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Synchronous",
+//                 "dataIndex": "OSRatePct_Synchronous",
+//                 "key": "OSRatePct_Synchronous",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "OSRatePct_Synchronous_Treatment",
+//                         "key": "OSRatePct_Synchronous_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "OSRatePct_Synchronous_Control",
+//                         "key": "OSRatePct_Synchronous_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Metachronous",
+//                 "dataIndex": "OSRatePct_Metachronous",
+//                 "key": "OSRatePct_Metachronous",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "OSRatePct_Metachronous_Treatment",
+//                         "key": "OSRatePct_Metachronous_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "OSRatePct_Metachronous_Control",
+//                         "key": "OSRatePct_Metachronous_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "High volume",
+//                 "dataIndex": "OSRatePct_Highvolume",
+//                 "key": "OSRatePct_Highvolume",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "OSRatePct_Highvolume_Treatment",
+//                         "key": "OSRatePct_Highvolume_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "OSRatePct_Highvolume_Control",
+//                         "key": "OSRatePct_Highvolume_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Low volume",
+//                 "dataIndex": "OSRatePct_Lowvolume",
+//                 "key": "OSRatePct_Lowvolume",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "OSRatePct_Lowvolume_Treatment",
+//                         "key": "OSRatePct_Lowvolume_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "OSRatePct_Lowvolume_Control",
+//                         "key": "OSRatePct_Lowvolume_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Median OS (mo)",
+//         "dataIndex": "MedianOSmo",
+//         "key": "MedianOSmo",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Overall",
+//                 "dataIndex": "MedianOSmo_Overall",
+//                 "key": "MedianOSmo_Overall",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianOSmo_Overall_Treatment",
+//                         "key": "MedianOSmo_Overall_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianOSmo_Overall_Control",
+//                         "key": "MedianOSmo_Overall_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "High volume",
+//                 "dataIndex": "MedianOSmo_Highvolume",
+//                 "key": "MedianOSmo_Highvolume",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianOSmo_Highvolume_Treatment",
+//                         "key": "MedianOSmo_Highvolume_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianOSmo_Highvolume_Control",
+//                         "key": "MedianOSmo_Highvolume_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Low volume",
+//                 "dataIndex": "MedianOSmo_Lowvolume",
+//                 "key": "MedianOSmo_Lowvolume",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianOSmo_Lowvolume_Treatment",
+//                         "key": "MedianOSmo_Lowvolume_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianOSmo_Lowvolume_Control",
+//                         "key": "MedianOSmo_Lowvolume_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "PFS Rate (%)",
+//         "dataIndex": "PFSRatePct",
+//         "key": "PFSRatePct",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Overall",
+//                 "dataIndex": "PFSRatePct_Overall",
+//                 "key": "PFSRatePct_Overall",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PFSRatePct_Overall_Treatment",
+//                         "key": "PFSRatePct_Overall_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PFSRatePct_Overall_Control",
+//                         "key": "PFSRatePct_Overall_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Median PFS (mo)",
+//         "dataIndex": "MedianPFSmo",
+//         "key": "MedianPFSmo",
+//         "width": 200,
+//         "children": [
+//             {
+//                 "title": "Overall",
+//                 "dataIndex": "MedianPFSmo_Overall",
+//                 "key": "MedianPFSmo_Overall",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianPFSmo_Overall_Treatment",
+//                         "key": "MedianPFSmo_Overall_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianPFSmo_Overall_Control",
+//                         "key": "MedianPFSmo_Overall_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "High volume",
+//                 "dataIndex": "MedianPFSmo_Highvolume",
+//                 "key": "MedianPFSmo_Highvolume",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianPFSmo_Highvolume_Treatment",
+//                         "key": "MedianPFSmo_Highvolume_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianPFSmo_Highvolume_Control",
+//                         "key": "MedianPFSmo_Highvolume_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Low volume",
+//                 "dataIndex": "MedianPFSmo_Lowvolume",
+//                 "key": "MedianPFSmo_Lowvolume",
+//                 "width": 200,
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianPFSmo_Lowvolume_Treatment",
+//                         "key": "MedianPFSmo_Lowvolume_Treatment",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianPFSmo_Lowvolume_Control",
+//                         "key": "MedianPFSmo_Lowvolume_Control",
+//                         "width": 200,
+//                         "ellipsis": "true"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Add-on Treatment",
+//         "dataIndex": "AddonTreatment",
+//         "key": "AddonTreatment",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Treatment Class",
+//         "dataIndex": "TreatmentClass",
+//         "key": "TreatmentClass",
+//         "width": 200,
+//         "ellipsis": "true"
+//     },
+//     {
+//         "title": "Type of Therapy",
+//         "dataIndex": "TypeofTherapy",
+//         "key": "TypeofTherapy",
+//         "width": 200
+//     }
+// ];
+
+
+
+
+// [
+//     {
+//         "title": "NCT",
+//         "dataIndex": "NCT",
+//         "key": "NCT"
+//     },
+//     {
+//         "title": "PubMed ID",
+//         "dataIndex": "PubMedID",
+//         "key": "PubMedID"
+//     },
+//     {
+//         "title": "Trial Name",
+//         "dataIndex": "TrialName",
+//         "key": "TrialName"
+//     },
+//     {
+//         "title": "Author",
+//         "dataIndex": "Author",
+//         "key": "Author"
+//     },
+//     {
+//         "title": "Year",
+//         "dataIndex": "Year",
+//         "key": "Year"
+//     },
+//     {
+//         "title": "Full Pub or Abstract",
+//         "dataIndex": "FullPuborAbstract",
+//         "key": "FullPuborAbstract"
+//     },
+//     {
+//         "title": "Phase",
+//         "dataIndex": "Phase",
+//         "key": "Phase"
+//     },
+//     {
+//         "title": "Original/Follow Up",
+//         "dataIndex": "OriginalFollowUp",
+//         "key": "OriginalFollowUp"
+//     },
+//     {
+//         "title": "Number of Arms Included",
+//         "dataIndex": "NumberofArmsIncluded",
+//         "key": "NumberofArmsIncluded"
+//     },
+//     {
+//         "title": "Treatment Arm(s)",
+//         "dataIndex": "TreatmentArms",
+//         "key": "TreatmentArms"
+//     },
+//     {
+//         "title": "Control Arm",
+//         "dataIndex": "ControlArm",
+//         "key": "ControlArm"
+//     },
+//     {
+//         "title": "Class of Agent in Treatment Arm 1",
+//         "dataIndex": "ClassofAgentinTreatmentArm1",
+//         "key": "ClassofAgentinTreatmentArm1"
+//     },
+//     {
+//         "title": "Treatment Arm 1 Regimen",
+//         "dataIndex": "TreatmentArm1Regimen",
+//         "key": "TreatmentArm1Regimen"
+//     },
+//     {
+//         "title": "Total Participants - N",
+//         "dataIndex": "TotalParticipantsN",
+//         "key": "TotalParticipantsN"
+//     },
+//     {
+//         "title": "Treatment Arm - N",
+//         "dataIndex": "TreatmentArmN",
+//         "key": "TreatmentArmN"
+//     },
+//     {
+//         "title": "Control Arm - N",
+//         "dataIndex": "ControlArmN",
+//         "key": "ControlArmN"
+//     },
+//     {
+//         "title": "Median Follow-Up Duration (mo)",
+//         "dataIndex": "MedianFollowUpDurationmo",
+//         "key": "MedianFollowUpDurationmo"
+//     },
+//     {
+//         "title": "Median On-Treatment Duration (mo)",
+//         "dataIndex": "MedianOnTreatmentDurationmo",
+//         "key": "MedianOnTreatmentDurationmo",
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "MedianOnTreatmentDurationmo_Treatment",
+//                 "key": "MedianOnTreatmentDurationmo_Treatment"
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "MedianOnTreatmentDurationmo_Control",
+//                 "key": "MedianOnTreatmentDurationmo_Control"
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Quality of Life reported",
+//         "dataIndex": "QualityofLifereported",
+//         "key": "QualityofLifereported"
+//     },
+//     {
+//         "title": "Quality of Life Scale",
+//         "dataIndex": "QualityofLifeScale",
+//         "key": "QualityofLifeScale"
+//     },
+//     {
+//         "title": "Reporting by prognostic groups - Y/N",
+//         "dataIndex": "ReportingbyprognosticgroupsYN",
+//         "key": "ReportingbyprognosticgroupsYN",
+//         "children": [
+//             {
+//                 "title": "Synchronous",
+//                 "dataIndex": "ReportingbyprognosticgroupsYN_Synchronous",
+//                 "key": "ReportingbyprognosticgroupsYN_Synchronous"
+//             },
+//             {
+//                 "title": "Metachronous",
+//                 "dataIndex": "ReportingbyprognosticgroupsYN_Metachronous",
+//                 "key": "ReportingbyprognosticgroupsYN_Metachronous"
+//             },
+//             {
+//                 "title": "High volume",
+//                 "dataIndex": "ReportingbyprognosticgroupsYN_Highvolume",
+//                 "key": "ReportingbyprognosticgroupsYN_Highvolume"
+//             },
+//             {
+//                 "title": "Low volume",
+//                 "dataIndex": "ReportingbyprognosticgroupsYN_Lowvolume",
+//                 "key": "ReportingbyprognosticgroupsYN_Lowvolume"
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Mode of metastases - N (%)",
+//         "dataIndex": "ModeofmetastasesNPct",
+//         "key": "ModeofmetastasesNPct",
+//         "children": [
+//             {
+//                 "title": "Synchronous",
+//                 "dataIndex": "ModeofmetastasesNPct_Synchronous",
+//                 "key": "ModeofmetastasesNPct_Synchronous",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "ModeofmetastasesNPct_Synchronous_Treatment",
+//                         "key": "ModeofmetastasesNPct_Synchronous_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "ModeofmetastasesNPct_Synchronous_Control",
+//                         "key": "ModeofmetastasesNPct_Synchronous_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Metachronous",
+//                 "dataIndex": "ModeofmetastasesNPct_Metachronous",
+//                 "key": "ModeofmetastasesNPct_Metachronous",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "ModeofmetastasesNPct_Metachronous_Treatment",
+//                         "key": "ModeofmetastasesNPct_Metachronous_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "ModeofmetastasesNPct_Metachronous_Control",
+//                         "key": "ModeofmetastasesNPct_Metachronous_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Volume of disease - N (%)",
+//         "dataIndex": "VolumeofdiseaseNPct",
+//         "key": "VolumeofdiseaseNPct",
+//         "children": [
+//             {
+//                 "title": "High",
+//                 "dataIndex": "VolumeofdiseaseNPct_High",
+//                 "key": "VolumeofdiseaseNPct_High",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "VolumeofdiseaseNPct_High_Treatment",
+//                         "key": "VolumeofdiseaseNPct_High_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "VolumeofdiseaseNPct_High_Control",
+//                         "key": "VolumeofdiseaseNPct_High_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Low",
+//                 "dataIndex": "VolumeofdiseaseNPct_Low",
+//                 "key": "VolumeofdiseaseNPct_Low",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "VolumeofdiseaseNPct_Low_Treatment",
+//                         "key": "VolumeofdiseaseNPct_Low_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "VolumeofdiseaseNPct_Low_Control",
+//                         "key": "VolumeofdiseaseNPct_Low_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Docetaxel administration - N (%)",
+//         "dataIndex": "DocetaxeladministrationNPct",
+//         "key": "DocetaxeladministrationNPct",
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "DocetaxeladministrationNPct_Treatment",
+//                 "key": "DocetaxeladministrationNPct_Treatment"
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "DocetaxeladministrationNPct_Control",
+//                 "key": "DocetaxeladministrationNPct_Control"
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Median Age (years)",
+//         "dataIndex": "MedianAgeyears",
+//         "key": "MedianAgeyears",
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "MedianAgeyears_Treatment",
+//                 "key": "MedianAgeyears_Treatment"
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "MedianAgeyears_Control",
+//                 "key": "MedianAgeyears_Control"
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Race - N (%)",
+//         "dataIndex": "RaceNPct",
+//         "key": "RaceNPct",
+//         "children": [
+//             {
+//                 "title": "White",
+//                 "dataIndex": "RaceNPct_White",
+//                 "key": "RaceNPct_White",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_White_Treatment",
+//                         "key": "RaceNPct_White_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_White_Control",
+//                         "key": "RaceNPct_White_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Black or African American",
+//                 "dataIndex": "RaceNPct_BlackorAfricanAmerican",
+//                 "key": "RaceNPct_BlackorAfricanAmerican",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_BlackorAfricanAmerican_Treatment",
+//                         "key": "RaceNPct_BlackorAfricanAmerican_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_BlackorAfricanAmerican_Control",
+//                         "key": "RaceNPct_BlackorAfricanAmerican_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Asian",
+//                 "dataIndex": "RaceNPct_Asian",
+//                 "key": "RaceNPct_Asian",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_Asian_Treatment",
+//                         "key": "RaceNPct_Asian_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_Asian_Control",
+//                         "key": "RaceNPct_Asian_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Nat. Hawaiian or Pac. Islander",
+//                 "dataIndex": "RaceNPct_NatHawaiianorPacIslander",
+//                 "key": "RaceNPct_NatHawaiianorPacIslander",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_NatHawaiianorPacIslander_Treatment",
+//                         "key": "RaceNPct_NatHawaiianorPacIslander_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_NatHawaiianorPacIslander_Control",
+//                         "key": "RaceNPct_NatHawaiianorPacIslander_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Amer. Indian or Alaska Nat.",
+//                 "dataIndex": "RaceNPct_AmerIndianorAlaskaNat",
+//                 "key": "RaceNPct_AmerIndianorAlaskaNat",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_AmerIndianorAlaskaNat_Treatment",
+//                         "key": "RaceNPct_AmerIndianorAlaskaNat_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_AmerIndianorAlaskaNat_Control",
+//                         "key": "RaceNPct_AmerIndianorAlaskaNat_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Other",
+//                 "dataIndex": "RaceNPct_Other",
+//                 "key": "RaceNPct_Other",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_Other_Treatment",
+//                         "key": "RaceNPct_Other_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_Other_Control",
+//                         "key": "RaceNPct_Other_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Unknown",
+//                 "dataIndex": "RaceNPct_Unknown",
+//                 "key": "RaceNPct_Unknown",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RaceNPct_Unknown_Treatment",
+//                         "key": "RaceNPct_Unknown_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RaceNPct_Unknown_Control",
+//                         "key": "RaceNPct_Unknown_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Region - N (%)",
+//         "dataIndex": "RegionNPct",
+//         "key": "RegionNPct",
+//         "children": [
+//             {
+//                 "title": "North America",
+//                 "dataIndex": "RegionNPct_NorthAmerica",
+//                 "key": "RegionNPct_NorthAmerica",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_NorthAmerica_Treatment",
+//                         "key": "RegionNPct_NorthAmerica_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_NorthAmerica_Control",
+//                         "key": "RegionNPct_NorthAmerica_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "South America",
+//                 "dataIndex": "RegionNPct_SouthAmerica",
+//                 "key": "RegionNPct_SouthAmerica",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_SouthAmerica_Treatment",
+//                         "key": "RegionNPct_SouthAmerica_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_SouthAmerica_Control",
+//                         "key": "RegionNPct_SouthAmerica_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Europe",
+//                 "dataIndex": "RegionNPct_Europe",
+//                 "key": "RegionNPct_Europe",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_Europe_Treatment",
+//                         "key": "RegionNPct_Europe_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_Europe_Control",
+//                         "key": "RegionNPct_Europe_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Africa",
+//                 "dataIndex": "RegionNPct_Africa",
+//                 "key": "RegionNPct_Africa",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_Africa_Treatment",
+//                         "key": "RegionNPct_Africa_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_Africa_Control",
+//                         "key": "RegionNPct_Africa_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Asia",
+//                 "dataIndex": "RegionNPct_Asia",
+//                 "key": "RegionNPct_Asia",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_Asia_Treatment",
+//                         "key": "RegionNPct_Asia_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_Asia_Control",
+//                         "key": "RegionNPct_Asia_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Oceania",
+//                 "dataIndex": "RegionNPct_Oceania",
+//                 "key": "RegionNPct_Oceania",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "RegionNPct_Oceania_Treatment",
+//                         "key": "RegionNPct_Oceania_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "RegionNPct_Oceania_Control",
+//                         "key": "RegionNPct_Oceania_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "PS - N (%)",
+//         "dataIndex": "PSNPct",
+//         "key": "PSNPct",
+//         "children": [
+//             {
+//                 "title": "0",
+//                 "dataIndex": "PSNPct_0",
+//                 "key": "PSNPct_0",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PSNPct_0_Treatment",
+//                         "key": "PSNPct_0_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PSNPct_0_Control",
+//                         "key": "PSNPct_0_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "1-2",
+//                 "dataIndex": "PSNPct_12",
+//                 "key": "PSNPct_12",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PSNPct_12_Treatment",
+//                         "key": "PSNPct_12_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PSNPct_12_Control",
+//                         "key": "PSNPct_12_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Gleason score - N (%)",
+//         "dataIndex": "GleasonscoreNPct",
+//         "key": "GleasonscoreNPct",
+//         "children": [
+//             {
+//                 "title": "\u2264 7",
+//                 "dataIndex": "GleasonscoreNPct_\u22647",
+//                 "key": "GleasonscoreNPct_\u22647",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "GleasonscoreNPct_\u22647_Treatment",
+//                         "key": "GleasonscoreNPct_\u22647_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "GleasonscoreNPct_\u22647_Control",
+//                         "key": "GleasonscoreNPct_\u22647_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "\u2265 8",
+//                 "dataIndex": "GleasonscoreNPct_\u22658",
+//                 "key": "GleasonscoreNPct_\u22658",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "GleasonscoreNPct_\u22658_Treatment",
+//                         "key": "GleasonscoreNPct_\u22658_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "GleasonscoreNPct_\u22658_Control",
+//                         "key": "GleasonscoreNPct_\u22658_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Metastases - N (%)",
+//         "dataIndex": "MetastasesNPct",
+//         "key": "MetastasesNPct",
+//         "children": [
+//             {
+//                 "title": "Liver",
+//                 "dataIndex": "MetastasesNPct_Liver",
+//                 "key": "MetastasesNPct_Liver",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MetastasesNPct_Liver_Treatment",
+//                         "key": "MetastasesNPct_Liver_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MetastasesNPct_Liver_Control",
+//                         "key": "MetastasesNPct_Liver_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Lungs",
+//                 "dataIndex": "MetastasesNPct_Lungs",
+//                 "key": "MetastasesNPct_Lungs",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MetastasesNPct_Lungs_Treatment",
+//                         "key": "MetastasesNPct_Lungs_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MetastasesNPct_Lungs_Control",
+//                         "key": "MetastasesNPct_Lungs_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Bone",
+//                 "dataIndex": "MetastasesNPct_Bone",
+//                 "key": "MetastasesNPct_Bone",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MetastasesNPct_Bone_Treatment",
+//                         "key": "MetastasesNPct_Bone_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MetastasesNPct_Bone_Control",
+//                         "key": "MetastasesNPct_Bone_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Nodal",
+//                 "dataIndex": "MetastasesNPct_Nodal",
+//                 "key": "MetastasesNPct_Nodal",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MetastasesNPct_Nodal_Treatment",
+//                         "key": "MetastasesNPct_Nodal_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MetastasesNPct_Nodal_Control",
+//                         "key": "MetastasesNPct_Nodal_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Previous local therapy - N (%)",
+//         "dataIndex": "PreviouslocaltherapyNPct",
+//         "key": "PreviouslocaltherapyNPct",
+//         "children": [
+//             {
+//                 "title": "Prostatectomy",
+//                 "dataIndex": "PreviouslocaltherapyNPct_Prostatectomy",
+//                 "key": "PreviouslocaltherapyNPct_Prostatectomy",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Prostatectomy_Treatment",
+//                         "key": "PreviouslocaltherapyNPct_Prostatectomy_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Prostatectomy_Control",
+//                         "key": "PreviouslocaltherapyNPct_Prostatectomy_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Orchiectomy",
+//                 "dataIndex": "PreviouslocaltherapyNPct_Orchiectomy",
+//                 "key": "PreviouslocaltherapyNPct_Orchiectomy",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Orchiectomy_Treatment",
+//                         "key": "PreviouslocaltherapyNPct_Orchiectomy_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Orchiectomy_Control",
+//                         "key": "PreviouslocaltherapyNPct_Orchiectomy_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Radiotherapy",
+//                 "dataIndex": "PreviouslocaltherapyNPct_Radiotherapy",
+//                 "key": "PreviouslocaltherapyNPct_Radiotherapy",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Radiotherapy_Treatment",
+//                         "key": "PreviouslocaltherapyNPct_Radiotherapy_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PreviouslocaltherapyNPct_Radiotherapy_Control",
+//                         "key": "PreviouslocaltherapyNPct_Radiotherapy_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Primary Endpoint(s)",
+//         "dataIndex": "PrimaryEndpoints",
+//         "key": "PrimaryEndpoints"
+//     },
+//     {
+//         "title": "Secondary Endpoint(s)",
+//         "dataIndex": "SecondaryEndpoints",
+//         "key": "SecondaryEndpoints"
+//     },
+//     {
+//         "title": "ORR - N (%)",
+//         "dataIndex": "ORRNPct",
+//         "key": "ORRNPct",
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "ORRNPct_Treatment",
+//                 "key": "ORRNPct_Treatment",
+//                 "children": [
+//                     {
+//                         "title": "Overall",
+//                         "dataIndex": "ORRNPct_Treatment_Overall",
+//                         "key": "ORRNPct_Treatment_Overall"
+//                     },
+//                     {
+//                         "title": "CR",
+//                         "dataIndex": "ORRNPct_Treatment_CR",
+//                         "key": "ORRNPct_Treatment_CR"
+//                     },
+//                     {
+//                         "title": "SD",
+//                         "dataIndex": "ORRNPct_Treatment_SD",
+//                         "key": "ORRNPct_Treatment_SD"
+//                     },
+//                     {
+//                         "title": "PD",
+//                         "dataIndex": "ORRNPct_Treatment_PD",
+//                         "key": "ORRNPct_Treatment_PD"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "ORRNPct_Control",
+//                 "key": "ORRNPct_Control",
+//                 "children": [
+//                     {
+//                         "title": "Overall",
+//                         "dataIndex": "ORRNPct_Control_Overall",
+//                         "key": "ORRNPct_Control_Overall"
+//                     },
+//                     {
+//                         "title": "CR",
+//                         "dataIndex": "ORRNPct_Control_CR",
+//                         "key": "ORRNPct_Control_CR"
+//                     },
+//                     {
+//                         "title": "SD",
+//                         "dataIndex": "ORRNPct_Control_SD",
+//                         "key": "ORRNPct_Control_SD"
+//                     },
+//                     {
+//                         "title": "PD",
+//                         "dataIndex": "ORRNPct_Control_PD",
+//                         "key": "ORRNPct_Control_PD"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Adverse Events - N (%)",
+//         "dataIndex": "AdverseEventsNPct",
+//         "key": "AdverseEventsNPct",
+//         "children": [
+//             {
+//                 "title": "All-Cause Grade 3 or Higher",
+//                 "dataIndex": "AdverseEventsNPct_AllCauseGrade3orHigher",
+//                 "key": "AdverseEventsNPct_AllCauseGrade3orHigher",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "AdverseEventsNPct_AllCauseGrade3orHigher_Treatment",
+//                         "key": "AdverseEventsNPct_AllCauseGrade3orHigher_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "AdverseEventsNPct_AllCauseGrade3orHigher_Control",
+//                         "key": "AdverseEventsNPct_AllCauseGrade3orHigher_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Treatment-related Grade 3 or Higher",
+//                 "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher",
+//                 "key": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Treatment",
+//                         "key": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Control",
+//                         "key": "AdverseEventsNPct_TreatmentrelatedGrade3orHigher_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Treatment-related Grade 5",
+//                 "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade5",
+//                 "key": "AdverseEventsNPct_TreatmentrelatedGrade5",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade5_Treatment",
+//                         "key": "AdverseEventsNPct_TreatmentrelatedGrade5_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "AdverseEventsNPct_TreatmentrelatedGrade5_Control",
+//                         "key": "AdverseEventsNPct_TreatmentrelatedGrade5_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "No. of Deaths - N",
+//         "dataIndex": "NoofDeathsN",
+//         "key": "NoofDeathsN",
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "NoofDeathsN_Treatment",
+//                 "key": "NoofDeathsN_Treatment"
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "NoofDeathsN_Control",
+//                 "key": "NoofDeathsN_Control"
+//             }
+//         ]
+//     },
+//     {
+//         "title": "TTPSA (mo)",
+//         "dataIndex": "TTPSAmo",
+//         "key": "TTPSAmo",
+//         "children": [
+//             {
+//                 "title": "Treatment",
+//                 "dataIndex": "TTPSAmo_Treatment",
+//                 "key": "TTPSAmo_Treatment"
+//             },
+//             {
+//                 "title": "Control",
+//                 "dataIndex": "TTPSAmo_Control",
+//                 "key": "TTPSAmo_Control"
+//             }
+//         ]
+//     },
+//     {
+//         "title": "OS Rate (%)",
+//         "dataIndex": "OSRatePct",
+//         "key": "OSRatePct",
+//         "children": [
+//             {
+//                 "title": "Overall",
+//                 "dataIndex": "OSRatePct_Overall",
+//                 "key": "OSRatePct_Overall",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "OSRatePct_Overall_Treatment",
+//                         "key": "OSRatePct_Overall_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "OSRatePct_Overall_Control",
+//                         "key": "OSRatePct_Overall_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Synchronous",
+//                 "dataIndex": "OSRatePct_Synchronous",
+//                 "key": "OSRatePct_Synchronous",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "OSRatePct_Synchronous_Treatment",
+//                         "key": "OSRatePct_Synchronous_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "OSRatePct_Synchronous_Control",
+//                         "key": "OSRatePct_Synchronous_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Metachronous",
+//                 "dataIndex": "OSRatePct_Metachronous",
+//                 "key": "OSRatePct_Metachronous",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "OSRatePct_Metachronous_Treatment",
+//                         "key": "OSRatePct_Metachronous_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "OSRatePct_Metachronous_Control",
+//                         "key": "OSRatePct_Metachronous_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "High volume",
+//                 "dataIndex": "OSRatePct_Highvolume",
+//                 "key": "OSRatePct_Highvolume",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "OSRatePct_Highvolume_Treatment",
+//                         "key": "OSRatePct_Highvolume_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "OSRatePct_Highvolume_Control",
+//                         "key": "OSRatePct_Highvolume_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Low volume",
+//                 "dataIndex": "OSRatePct_Lowvolume",
+//                 "key": "OSRatePct_Lowvolume",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "OSRatePct_Lowvolume_Treatment",
+//                         "key": "OSRatePct_Lowvolume_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "OSRatePct_Lowvolume_Control",
+//                         "key": "OSRatePct_Lowvolume_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Median OS (mo)",
+//         "dataIndex": "MedianOSmo",
+//         "key": "MedianOSmo",
+//         "children": [
+//             {
+//                 "title": "Overall",
+//                 "dataIndex": "MedianOSmo_Overall",
+//                 "key": "MedianOSmo_Overall",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianOSmo_Overall_Treatment",
+//                         "key": "MedianOSmo_Overall_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianOSmo_Overall_Control",
+//                         "key": "MedianOSmo_Overall_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "High volume",
+//                 "dataIndex": "MedianOSmo_Highvolume",
+//                 "key": "MedianOSmo_Highvolume",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianOSmo_Highvolume_Treatment",
+//                         "key": "MedianOSmo_Highvolume_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianOSmo_Highvolume_Control",
+//                         "key": "MedianOSmo_Highvolume_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Low volume",
+//                 "dataIndex": "MedianOSmo_Lowvolume",
+//                 "key": "MedianOSmo_Lowvolume",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianOSmo_Lowvolume_Treatment",
+//                         "key": "MedianOSmo_Lowvolume_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianOSmo_Lowvolume_Control",
+//                         "key": "MedianOSmo_Lowvolume_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "PFS Rate (%)",
+//         "dataIndex": "PFSRatePct",
+//         "key": "PFSRatePct",
+//         "children": [
+//             {
+//                 "title": "Overall",
+//                 "dataIndex": "PFSRatePct_Overall",
+//                 "key": "PFSRatePct_Overall",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "PFSRatePct_Overall_Treatment",
+//                         "key": "PFSRatePct_Overall_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "PFSRatePct_Overall_Control",
+//                         "key": "PFSRatePct_Overall_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Median PFS (mo)",
+//         "dataIndex": "MedianPFSmo",
+//         "key": "MedianPFSmo",
+//         "children": [
+//             {
+//                 "title": "Overall",
+//                 "dataIndex": "MedianPFSmo_Overall",
+//                 "key": "MedianPFSmo_Overall",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianPFSmo_Overall_Treatment",
+//                         "key": "MedianPFSmo_Overall_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianPFSmo_Overall_Control",
+//                         "key": "MedianPFSmo_Overall_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "High volume",
+//                 "dataIndex": "MedianPFSmo_Highvolume",
+//                 "key": "MedianPFSmo_Highvolume",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianPFSmo_Highvolume_Treatment",
+//                         "key": "MedianPFSmo_Highvolume_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianPFSmo_Highvolume_Control",
+//                         "key": "MedianPFSmo_Highvolume_Control"
+//                     }
+//                 ]
+//             },
+//             {
+//                 "title": "Low volume",
+//                 "dataIndex": "MedianPFSmo_Lowvolume",
+//                 "key": "MedianPFSmo_Lowvolume",
+//                 "children": [
+//                     {
+//                         "title": "Treatment",
+//                         "dataIndex": "MedianPFSmo_Lowvolume_Treatment",
+//                         "key": "MedianPFSmo_Lowvolume_Treatment"
+//                     },
+//                     {
+//                         "title": "Control",
+//                         "dataIndex": "MedianPFSmo_Lowvolume_Control",
+//                         "key": "MedianPFSmo_Lowvolume_Control"
+//                     }
+//                 ]
+//             }
+//         ]
+//     },
+//     {
+//         "title": "Add-on Treatment",
+//         "dataIndex": "AddonTreatment",
+//         "key": "AddonTreatment"
+//     },
+//     {
+//         "title": "Treatment Class",
+//         "dataIndex": "TreatmentClass",
+//         "key": "TreatmentClass"
+//     },
+//     {
+//         "title": "Type of Therapy",
+//         "dataIndex": "TypeofTherapy",
+//         "key": "TypeofTherapy"
+//     }
+// ]

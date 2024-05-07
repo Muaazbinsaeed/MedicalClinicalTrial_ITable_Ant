@@ -42,3 +42,13 @@ git checkout main
 
 git log
 #show log
+
+
+
+
+
+# git new branch push
+git checkout -b v1.treeselector
+git add .
+git commit -m "column tree selector " -m " | updated Full data with and replaced old data " -m " | uncleaned files and code | expandable side bars table " -m " | table issue on multiple columns " -m " | no texted elisped yet "
+git push -u origin v1.treeselector

@@ -5,14 +5,14 @@ import { Checkbox, Table, Tree, Modal } from "antd";
 // import { columns } from "@/misc/parsedData";
 import jsonData from "@/misc/data.json";
 import { json_data, column_data as columns } from "@/misc/json_data";
-import { Col, Row, Select, Collapse, Button } from "antd";
+import { Col, Row, Select, Collapse, Button, Tooltip } from "antd";
 import { DataFilters } from "@/components/data-filters";
 import { Layout, Input } from "antd";
 import { YourComponent } from "@/components/try";
 const { Option } = Select;
 const { Panel } = Collapse;
 const { Sider, Content } = Layout;
-import { MultiColumnSelectComponent } from "@/components/MultiColumnSelectComponent";
+import { MultiColumnSelectComponent, MultiColumnSelector } from "@/components/MultiColumnSelectComponent";
 
 import {
   LeftOutlined,
@@ -22,7 +22,6 @@ import {
 } from "@ant-design/icons";
 
 const { TreeNode } = Tree;
-
 
 const MultiColumnSelectComponent2 = ({ columns, onColumnSelect }) => {
   const [visible, setVisible] = useState(false);
@@ -41,27 +40,17 @@ const MultiColumnSelectComponent2 = ({ columns, onColumnSelect }) => {
     setVisible(false);
   };
 
-  const renderTreeNodes = (data, parentKey = '') => {
+  const renderTreeNodes = (data, parentKey = "") => {
     return data.map((item) => {
       const key = `${parentKey}_${item.key}`;
       if (item.children) {
         return (
-          <TreeNode
-            title={item.title}
-            key={key}
-            selectable={false}
-          >
+          <TreeNode title={item.title} key={key} selectable={false}>
             {renderTreeNodes(item.children, key)}
           </TreeNode>
         );
       }
-      return (
-        <TreeNode
-          title={item.title}
-          key={key}
-          selectable={false}
-        />
-      );
+      return <TreeNode title={item.title} key={key} selectable={false} />;
     });
   };
 
@@ -86,7 +75,6 @@ const MultiColumnSelectComponent2 = ({ columns, onColumnSelect }) => {
     </>
   );
 };
-
 
 const MultiLevelColumnSelector = ({ columns, onColumnSelect }) => {
   const [selectedColumns, setSelectedColumns] = useState([]);
@@ -707,19 +695,150 @@ const App = () => {
   //   hidden: !checkedList.includes(item.key),
   // }));
 
-  const newColumns = columns.map((item) => ({
-    ...item,
-    hidden: !checkedList.includes(item.key),
-    sorter: (a, b) => {
-      const aValue = a[item.key];
-      const bValue = b[item.key];
-      if (typeof aValue === "string" && typeof bValue === "string") {
-        return aValue.localeCompare(bValue);
-      }
-      return aValue - bValue;
-    },
-    sortDirections: ["ascend", "descend", "ascend"],
-  }));
+  // const newColumns = columns.map((item) => {
+  //   const ellipsisConfig =
+  //     typeof item.key === 'string' && item.key.length > 10
+  //       ? {
+  //           ellipsis: {
+  //             showTitle: false,
+  //           },
+  //           render: (text) => (
+  //             <Tooltip placement="topLeft" title={text}>
+  //               {text}
+  //             </Tooltip>
+  //           ),
+  //         }
+  //       : {};
+
+  //   return {
+  //     ...item,
+  //     hidden: !checkedList.includes(item.key),
+  //     sorter: (a, b) => {
+  //       const aValue = a[item.key];
+  //       const bValue = b[item.key];
+  //       if (typeof aValue === 'string' && typeof bValue === 'string') {
+  //         return aValue.localeCompare(bValue);
+  //       }
+  //       return aValue - bValue;
+  //     },
+  //     sortDirections: ['ascend', 'descend', 'ascend'],
+  //     ...ellipsisConfig,
+  //   };
+  // });
+
+  const newColumns = columns.map((item) => {
+    const ellipsisConfig =
+      typeof text === "string" && text.length > 10
+        ? {
+            ellipsis: {
+              showTitle: false,
+            },
+            render: (text) => (
+              <Tooltip placement="topLeft" title={text}>
+                {text}
+              </Tooltip>
+            ),
+          }
+        : {};
+
+    return {
+      ...item,
+      hidden: !checkedList.includes(item.key),
+      sorter: (a, b) => {
+        const aValue = a[item.key];
+        const bValue = b[item.key];
+        if (typeof aValue === "string" && typeof bValue === "string") {
+          return aValue.localeCompare(bValue);
+        }
+        return aValue - bValue;
+      },
+      sortDirections: ["ascend", "descend", "ascend"],
+      ...ellipsisConfig,
+    };
+  });
+  // const newColumns = columns.map((item) => {
+  //   const ellipsisConfig =
+  //     typeof text === 'string' && text.length > 10
+  //       ? {
+  //           ellipsis: {
+  //             showTitle: false,
+  //           },
+  //           render: (text) => (
+  //             <Tooltip placement="topLeft" title={text}>
+  //               {text}
+  //             </Tooltip>
+  //           ),
+  //         }
+  //       : {};
+
+  //   return {
+  //     ...item,
+  //     hidden: !checkedList.includes(item.key),
+  //     sorter: (a, b) => {
+  //       const aValue = a[item.key];
+  //       const bValue = b[item.key];
+  //       if (typeof aValue === 'string' && typeof bValue === 'string') {
+  //         return aValue.localeCompare(bValue);
+  //       }
+  //       return aValue - bValue;
+  //     },
+  //     sortDirections: ['ascend', 'descend', 'ascend'],
+  //     ...ellipsisConfig,
+  //   };
+  // });
+  // const newColumns = columns.map((item) => ({
+  //   ...item,
+  //    hidden:!checkedList.includes(item.key),
+  //    sorter: (a, b) => {
+  //      const aValue = a[item.key];
+  //      const bValue = b[item.key];
+  //      if (typeof aValue === "string" && typeof bValue === "string") {
+  //        return aValue.localeCompare(bValue);
+  //      }
+  //      return aValue - bValue;
+  //    },
+  //    sortDirections: ["ascend", "descend", "ascend"],
+  //   ...(typeof aValue === "string" && aValue.length > 10? {
+  //      ellipsis: {
+  //        showTitle: false,
+  //      },
+  //      render: (item.key) => (
+  //        <Tooltip placement="topLeft" title={item.key}>
+  //          {item.key}
+  //        </Tooltip>
+  //      ),
+  //    } : {}),
+  //  }));
+  // const newColumns = columns.map((item) => ({
+  //   ...item,
+  //   hidden: !checkedList.includes(item.key),
+  //   sorter: (a, b) => {
+  //     const aValue = a[item.key];
+  //     const bValue = b[item.key];
+  //     if (typeof aValue === "string" && typeof bValue === "string") {
+  //       return aValue.localeCompare(bValue);
+  //     }
+  //     return aValue - bValue;
+  //   },
+  //   sortDirections: ["ascend", "descend", "ascend"],
+  //   ellipsis: item.type === "string" ? {
+  //     showTitle: false,
+  //   } : null,
+  //   render: (item.key) => item.type === "string" ? (
+  //     <Tooltip placement="topLeft" title={item.key}>
+  //       {item.key}
+  //     </Tooltip>
+  //   ) : text,
+  // }));
+  //   ellipsis: item.type === "string" && item.length > 10 ? {
+  //     showTitle: false,
+  //   } : null,
+  //   render: (text) => item.type === "string" && text.length > 10 ? (
+  //     <Tooltip placement="topLeft" title={text}>
+  //       {text.slice(0, 10) + '...'}
+  //     </Tooltip>
+  //   ) : text,
+  // }));
 
   const handleSelectedFilters = (key, value) => {
     if (key) setSelectedFilters((prev) => ({ ...prev, [key]: value }));
@@ -800,26 +919,24 @@ const App = () => {
         {/* <Col span={5}> */}
       </Row>
       <Row gutter={10}>
-
-<MultiColumnSelectComponent
-checkedList={checkedList}
-setCheckedList={setCheckedList}
-options={options}
-/>
+        <MultiColumnSelectComponent
+          checkedList={checkedList}
+          setCheckedList={setCheckedList}
+          // options={options}
+        />
 
         {/* <setCheckedList
           columns={columns}
           onSelectColumns={(selectedColumns) => {
             setCheckedList(selectedColumns);
           }}*/}
-          
       </Row>
- {/* 
+      {/* 
       <Row gutter={10}>
         <div>
           <YourComponent />
           {/* <ColumnSelector /> */}
-          {/* <h1>Multi-Level Column Selector</h1>
+      {/* <h1>Multi-Level Column Selector</h1>
       <MultiLevelColumnSelector columns={columns} onColumnSelect={handleColumnSelect} /> 
         </div>
       </Row>*/}
@@ -1433,6 +1550,7 @@ options={options}
               />
             </div>
           </Content>
+          
           <Sider
             collapsed={rightCollapsed}
             onCollapse={toggleRightCollapsed}
@@ -1462,10 +1580,14 @@ options={options}
 
                   <RightOutlined />
                 </Button>
-                <MyExpandableMultiSelector
+                {/* <MyExpandableMultiSelector
                   checkedList={checkedList}
                   setCheckedList={setCheckedList}
                   options={options}
+                /> */}
+                <MultiColumnSelector
+                  checkedList={checkedList}
+                  setCheckedList={setCheckedList}
                 />
               </div>
             ) : (
@@ -1490,6 +1612,9 @@ options={options}
               </div>
             )}
           </Sider>
+
+
+          
         </Layout>
       </Row>
     </div>
