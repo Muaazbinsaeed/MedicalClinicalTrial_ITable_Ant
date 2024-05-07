@@ -1,7 +1,4 @@
 
-// import { Tooltip } from "antd";
-
-
 export const json_data = [
     {
         "NCT": "NCT02799602",
@@ -4426,7 +4423,6 @@ export const json_data = [
         "TypeofTherapy": "ARPI-doublet"
     }
 ];
-
 
 export const column_data =  [
     {

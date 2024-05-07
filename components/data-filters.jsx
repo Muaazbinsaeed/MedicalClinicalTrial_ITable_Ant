@@ -72,8 +72,6 @@ export const DataFilters = ({ onSelect, selectedFilters, onClear }) => {
     </div>
   );
 };
-
-// import React, { useState } from 'react';
 // import { CiFilter } from "react-icons/ci";
 // import { MdDeleteOutline } from "react-icons/md";
 // import SelectInput from './select';
