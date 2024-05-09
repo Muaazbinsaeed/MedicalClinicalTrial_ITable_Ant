@@ -68,7 +68,6 @@ const App = () => {
     const fetchData = async () => {
       // Fetch data from API or local storage
       const data = json_data;
-
       // const data = await json_data;
       setFilteredData(data);
       setLoading(false); // Set loading to false once data is fetched
@@ -173,11 +172,63 @@ const App = () => {
 
           <Content style={{ padding: "0 5px", textAlign: "center" }}>
             <div className="custom-table">
-              <Table
+            <Table
+              columns={newColumns}
+              dataSource={filteredData}
+              bordered
+              pagination={{
+                pageSize: topValue,
+                position: ['bottomRight'],
+                // showSizeChanger: true,
+                // pageSizeOptions: [5, 10, 20, 30, 50],
+              }}
+              size="small"
+              scroll={{ x: "calc(700px + 50%)", y: 1500 }}
+              onChange={(pagination, filters, sorter) => {
+                const sortedData = [...filteredData];
+                if (sorter.field && sorter.order) {
+                  sortedData.sort((a, b) => {
+                    const aValue = a[sorter.field];
+                    const bValue = b[sorter.field];
+                    if (typeof aValue === "string" && typeof bValue === "string") {
+                      return sorter.order === "ascend" ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
+                    }
+                    return sorter.order === "ascend" ? aValue - bValue : bValue - aValue;
+                  });
+                }
+                setFilteredData(sortedData);
+              }}
+              title={() => (
+                <div>
+                  <span>{`Showing ${filteredData.length} rows`}</span>
+                  <span style={{ marginLeft: 8 }}>{`| NCT Records: ${distinctNCTCount}`}</span>
+                </div>
+              )}
+              footer={() => (
+                // <div>
+                  <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+                  {/* <span>{`Showing ${filteredData.length} rows`}</span> */}
+                  {/* <span style={{ marginLeft: 8 }}>{`Distinct NCT Records: ${distinctNCTCount}`}</span> */}
+                  <Select
+                    style={{ marginLeft: 8, width: 80 }}
+                    value={topValue}
+                    onChange={handleTopValueChange}
+                  >
+                    {[5, 10, 20, 50, 100].map((value) => (
+                      <Option key={value} value={value}>
+                        {value}
+                      </Option>
+                    ))}
+                  </Select>
+                </div>
+              )}
+            />            
+
+{/* <Table
                 columns={newColumns}
                 dataSource={filteredData}
                 bordered
-                pagination={{ pageSize: topValue }}
+                pagination={{ pageSize: topValue, position: ['bottomRight'] }}
                 size="small"
                 scroll={{ x: "calc(700px + 50%)", y: 1500 }}
                 onChange={(pagination, filters, sorter) => {
@@ -211,7 +262,7 @@ const App = () => {
                     </Select>
                   </div>
                 )}
-              />
+              /> */}
             </div>
           </Content>
 

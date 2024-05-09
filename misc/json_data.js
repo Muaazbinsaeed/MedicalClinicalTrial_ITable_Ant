@@ -4429,15 +4429,16 @@ export const column_data =  [
         "title": "NCT",
         "dataIndex": "NCT",
         "key": "NCT",
-        "width": 200,
-        fixed: 'left'
+        "width": 150,
+        fixed: 'left',
+        render: (text) => <a>{text}</a>,
     },
     {
         "title": "PubMed ID",
         "dataIndex": "PubMedID",
         "key": "PubMedID",
         "width": 200,
-        fixed: 'left'
+        // fixed: 'left'
     },
     {
         "title": "Trial Name",
