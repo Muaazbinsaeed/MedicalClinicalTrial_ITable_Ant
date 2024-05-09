@@ -48,90 +48,227 @@ const App = () => {
     value: key,
   }));
 
-  const newColumns_old = columns.map((item) => {
-    const ellipsisConfig =
-      typeof item.key === "string" && item.key.length > 10
-        ? {
-            ellipsis: {
-              showTitle: false,
-            },
-            render: (text) => (
-              <Tooltip placement="topLeft" title={text}>
-                {text}
-              </Tooltip>
-            ),
-          }
-        : {};
-    return {
-      ...item,
-      hidden: !checkedList.includes(item.key),
-      sorter: (a, b) => {
-        const aValue = a[item.key];
-        const bValue = b[item.key];
-        if (typeof aValue === "string" && typeof bValue === "string") {
-          return aValue.localeCompare(bValue);
-        }
-        return aValue - bValue;
-      },
-      sortDirections: ["ascend", "descend", "ascend"],
-      ...ellipsisConfig,
-    };
-  });
+  // const newColumns_old = columns.map((item) => {
+  //   const ellipsisConfig =
+  //     typeof item.key === "string" && item.key.length > 10
+  //       ? {
+  //           ellipsis: {
+  //             showTitle: false,
+  //           },
+  //           render: (text) => (
+  //             <Tooltip placement="topLeft" title={text}>
+  //               {text}
+  //             </Tooltip>
+  //           ),
+  //         }
+  //       : {};
+  //   return {
+  //     ...item,
+  //     hidden: !checkedList.includes(item.key),
+  //     sorter: (a, b) => {
+  //       const aValue = a[item.key];
+  //       const bValue = b[item.key];
+  //       if (typeof aValue === "string" && typeof bValue === "string") {
+  //         return aValue.localeCompare(bValue);
+  //       }
+  //       return aValue - bValue;
+  //     },
+  //     sortDirections: ["ascend", "descend", "ascend"],
+  //     ...ellipsisConfig,
+  //   };
+  // });
 
+  // const newColumns_child1 = columns.map((item) => {
+  //   const ellipsisConfig =
+  //     typeof item.key === "string" && item.key.length > 10
+  //       ? {
+  //           ellipsis: {
+  //             showTitle: false,
+  //           },
+  //           render: (text) => (
+  //             <Tooltip placement="topLeft" title={text}>
+  //               {text}
+  //             </Tooltip>
+  //           ),
+  //         }
+  //       : {};
+
+  //   if (item.children) {
+  //     // Recursively traverse the column structure
+  //     item.children = item.children.map((child) => {
+  //       return {
+  //         ...child,
+  //         sorter: child.children
+  //           ? undefined
+  //           : (a, b) => {
+  //               const aValue = a[child.dataIndex];
+  //               const bValue = b[child.dataIndex];
+  //               if (typeof aValue === "string" && typeof bValue === "string") {
+  //                 return aValue.localeCompare(bValue);
+  //               }
+  //               return aValue - bValue;
+  //             },
+  //         sortDirections: ["ascend", "descend", "ascend"],
+  //         ...ellipsisConfig,
+  //       };
+  //     });
+  //     return {
+  //       ...item,
+  //       hidden: !checkedList.includes(item.key),
+  //     };
+  //   } else {
+  //     return {
+  //       ...item,
+  //       hidden: !checkedList.includes(item.key),
+  //       sorter: (a, b) => {
+  //         const aValue = a[item.dataIndex];
+  //         const bValue = b[item.dataIndex];
+  //         if (typeof aValue === "string" && typeof bValue === "string") {
+  //           return aValue.localeCompare(bValue);
+  //         }
+  //         return aValue - bValue;
+  //       },
+  //       sortDirections: ["ascend", "descend", "ascend"],
+  //       ...ellipsisConfig,
+  //     };
+  //   }
+  // });
+  // const newColumns_child2 = columns.map((item) => {
+  //   const ellipsisConfig =
+  //     typeof item.key === "string" && item.key.length > 10
+  //       ? {
+  //           ellipsis: {
+  //             showTitle: false,
+  //           },
+  //           render: (text) => (
+  //             <Tooltip placement="topLeft" title={text}>
+  //               {text}
+  //             </Tooltip>
+  //           ),
+  //         }
+  //       : {};
+
+  //   const recursiveAddSorter = (column) => {
+  //     if (column.children) {
+  //       column.children.forEach((child) => recursiveAddSorter(child));
+  //     } else {
+  //       column.sorter = (a, b) => {
+  //         const aValue = a[column.dataIndex];
+  //         const bValue = b[column.dataIndex];
+  //         if (typeof aValue === "string" && typeof bValue === "string") {
+  //           return aValue.localeCompare(bValue);
+  //         }
+  //         return aValue - bValue;
+  //       };
+  //       column.sortDirections = ["ascend", "descend", "ascend"];
+  //     }
+  //   };
+
+  //   recursiveAddSorter(item);
+
+  //   return {
+  //     ...item,
+  //     hidden: !checkedList.includes(item.key),
+  //     ...ellipsisConfig,
+  //   };
+  // });
+  // const newColumns_child2_blank = columns.map((item) => {
+  //   const ellipsisConfig =
+  //     typeof item.key === "string" && item.key.length > 10
+  //       ? {
+  //           ellipsis: {
+  //             showTitle: false,
+  //           },
+  //           render: (text) => (
+  //             <Tooltip placement="topLeft" title={text}>
+  //               {text}
+  //             </Tooltip>
+  //           ),
+  //         }
+  //       : {};
+  
+  //   const recursiveAddSorter = (column) => {
+  //     if (column.children) {
+  //       column.children.forEach((child) => recursiveAddSorter(child));
+  //     } else {
+  //       column.sorter = (a, b) => {
+  //         let aValue = a[column.dataIndex];
+  //         let bValue = b[column.dataIndex];
+  
+  //         // Handle blank rows
+  //         if (aValue === undefined || aValue === null) aValue = '';
+  //         if (bValue === undefined || bValue === null) bValue = '';
+  
+  //         if (typeof aValue === "string" && typeof bValue === "string") {
+  //           return aValue.localeCompare(bValue);
+  //         }
+  //         return aValue - bValue;
+  //       };
+  //       column.sortDirections = ["ascend", "descend", "ascend"];
+  //     }
+  //   };
+  
+  //   recursiveAddSorter(item);
+  
+  //   return {
+  //     ...item,
+  //     hidden: !checkedList.includes(item.key),
+  //     ...ellipsisConfig,
+  //   };
+  // });
+
+  // Handle child leaf sort, child ellipse and blank sort
   const newColumns = columns.map((item) => {
-    const ellipsisConfig =
-      typeof item.key === "string" && item.key.length > 10
-        ? {
-            ellipsis: {
-              showTitle: false,
-            },
-            render: (text) => (
-              <Tooltip placement="topLeft" title={text}>
-                {text}
-              </Tooltip>
-            ),
-          }
-        : {};
-
-    if (item.children) {
-      // Recursively traverse the column structure
-      item.children = item.children.map((child) => {
-        return {
-          ...child,
-          sorter: child.children
-            ? undefined
-            : (a, b) => {
-                const aValue = a[child.dataIndex];
-                const bValue = b[child.dataIndex];
-                if (typeof aValue === "string" && typeof bValue === "string") {
-                  return aValue.localeCompare(bValue);
-                }
-                return aValue - bValue;
-              },
-          sortDirections: ["ascend", "descend", "ascend"],
-          ...ellipsisConfig,
-        };
-      });
-      return {
-        ...item,
-        hidden: !checkedList.includes(item.key),
-      };
-    } else {
-      return {
-        ...item,
-        hidden: !checkedList.includes(item.key),
-        sorter: (a, b) => {
-          const aValue = a[item.dataIndex];
-          const bValue = b[item.dataIndex];
+    const recursiveAddEllipsis = (column) => {
+      if (column.children) {
+        column.children.forEach((child) => recursiveAddEllipsis(child));
+      } else {
+        const ellipsisConfig =
+          typeof column.key === "string" && column.key.length > 10
+            ? {
+                ellipsis: {
+                  showTitle: false,
+                },
+                render: (text) => (
+                  <Tooltip placement="topLeft" title={text}>
+                    {text}
+                  </Tooltip>
+                ),
+              }
+            : {};
+        return ellipsisConfig;
+      }
+    };
+  
+    const recursiveAddSorter = (column) => {
+      if (column.children) {
+        column.children.forEach((child) => recursiveAddSorter(child));
+      } else {
+        column.sorter = (a, b) => {
+          let aValue = a[column.dataIndex];
+          let bValue = b[column.dataIndex];
+  
+          // Handle blank rows
+          if (aValue === undefined || aValue === null) aValue = '';
+          if (bValue === undefined || bValue === null) bValue = '';
+  
           if (typeof aValue === "string" && typeof bValue === "string") {
             return aValue.localeCompare(bValue);
           }
           return aValue - bValue;
-        },
-        sortDirections: ["ascend", "descend", "ascend"],
-        ...ellipsisConfig,
-      };
-    }
+        };
+        column.sortDirections = ["ascend", "descend", "ascend"];
+      }
+    };
+  
+    recursiveAddSorter(item);
+    const ellipsisConfig = recursiveAddEllipsis(item);
+  
+    return {
+      ...item,
+      hidden: !checkedList.includes(item.key),
+      ...ellipsisConfig,
+    };
   });
 
   const handleSelectedFilters = (key, value) => {
